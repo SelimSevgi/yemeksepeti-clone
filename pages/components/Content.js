@@ -110,8 +110,8 @@ export default function Content() {
     <div className="content">
       <div className="content-gri">
         <p>
-          Yemeksepeti'yle yemeğin sadece birkaç tık uzaklıkta! Şehrinizi seçip
-          sipariş verin.
+          Yemeksepeti&apos;yle yemeğin sadece birkaç tık uzaklıkta! Şehrinizi
+          seçip sipariş verin.
         </p>
       </div>
       <div className="content-cn">
