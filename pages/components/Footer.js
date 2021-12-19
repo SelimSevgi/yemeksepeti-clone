@@ -42,13 +42,12 @@ export default function Footer() {
       id: 10,
       name: "https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/sehirsecimMarkalar/popeyes.gif",
     },
-    
   ];
   return (
     <div className="footer">
       <div className="footer-comp">
         {data.map((x, i) => (
-          <div className="footer-comp-img" href="#">
+          <div key={x.id} className="footer-comp-img" href="#">
             <div className="footer-comp-imgg">
               <img src={x.name} />
             </div>
