@@ -27,10 +27,10 @@ export default function Home() {
         <div className="bbb">
           <div className="aaa">
             <div className="page-end-yemeksepeti">
-              <a href="/">S.S.S ve İşlem Rehberi</a>
-              <a href="/">İletişim</a>
-              <a href="/">Mobil</a>
-              <a href="/">Kullanıcı Sözleşmesi</a>
+              <a href="#">S.S.S ve İşlem Rehberi</a>
+              <a href="#">İletişim</a>
+              <a href="#">Mobil</a>
+              <a href="#">Kullanıcı Sözleşmesi</a>
               <a
                 href="https://portakalauth.yemeksepeti.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dportakal.web.portal.core%26redirect_uri%3Dhttps%253A%252F%252Fportakal.yemeksepeti.com%252Fsignin-oidc%26response_type%3Did_token%2520token%26scope%3Dopenid%2520profile%2520email%2520accountinfo%2520webapi%2520roles%26response_mode%3Dform_post%26nonce%3D637754848135116847.Zjc3MjMxMTYtNjI0ZC00NWJlLWExZTktMmUwZTBkZGFiZTI1NzZmZmU2NGItZjA0Mi00NTc3LTgwNjUtNTcxY2MxZmJhZWI3%26state%3DCfDJ8HPj5nKZ5N5GlTWD0TMSrnllH8kqoirv-tBGsrRJbfeeD2GQlbtt7qoIPTlxj10nwHJObzHV6mt0fX88w7GPT7ymQ6v5_ItnFJ3eGiLZ5-0mXDflXDa3cMyasP8fSE2Y7FhfMGu1-YWYeDdD-nKGEOnz6_dK-GNsIYJWQRkP9C3Pfk3VJSC-rg-3dOL3VTygD5WsZJs_laVvteTE87d77z80MLOI-K29rD8jILL6vWhV39WhmmCc6BUhIkrQDgNZfJCgQdrXQX0AyES5QHchTCTB5UANKs3VS6wiEfnPqImGFbjS41hE5x8zLvsn2KMvnQ%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.6.0.0"
                 target="_blank"
@@ -122,7 +122,7 @@ export default function Home() {
           <p>
             {" "}
             Çağrı merkezi bekleme müzikleri için{" "}
-            <a href="https://radioeksen.com/" target="_blank" rel="nofollow">
+            <a href="https://radioeksen.com/" >
               <img src="https://upload.wikimedia.org/wikipedia/tr/b/b3/Radyo_Eksen_logosu.png" />
             </a>{" "}
             &apos;e teşekkür ederiz.
