@@ -3,49 +3,46 @@ import React from "react";
 export default function Footer() {
   const data = [
     {
-      id: "1",
+      id: 1,
       name: "https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/sehirsecimMarkalar/dominos.png",
     },
     {
-      id: "2",
+      id: 2,
       name: "https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/sehirsecimMarkalar/cigkoftem.png",
     },
     {
-      id: "3",
+      id: 3,
       name: "https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/sehirsecimMarkalar/papa_johns.png",
     },
     {
-      id: "4",
+      id: 4,
       name: "https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/sehirsecimMarkalar/subway.png",
     },
     {
-      id: "5",
+      id: 5,
       name: "https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/sehirsecimMarkalar/burgerking.png",
     },
     {
-      id: "6",
+      id: 6,
       name: "https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/sehirsecimMarkalar/boluluhasan.png",
     },
     {
-      id: "7",
+      id: 7,
       name: "https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/sehirsecimMarkalar/komagene.png",
     },
     {
-      id: "8",
+      id: 8,
       name: "https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/sehirsecimMarkalar/terrapizza.png",
     },
     {
-      id: "9",
+      id: 9,
       name: "https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/sehirsecimMarkalar/pizzahut.png",
     },
     {
-      id: "10",
+      id: 10,
       name: "https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/sehirsecimMarkalar/popeyes.gif",
     },
-    {
-      id: "11",
-      name: "",
-    },
+    
   ];
   return (
     <div className="footer">
