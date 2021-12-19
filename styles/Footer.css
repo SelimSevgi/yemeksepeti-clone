@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  background: hsla(0, 0%, 96.9%, 0.8);
+  z-index: 3;
+}
+
+.footer-comp {
+  width: 1009px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  margin-bottom: 35px;
+}
+
+.footer-comp-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  width: 94px;
+  height: 35px;
+  margin-top: 35px;
+  border-right: 1px solid rgba(161, 159, 159, 0.171);
+}
+.footer-comp-img img {
+  object-fit: cover;
+}

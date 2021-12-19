@@ -115,25 +115,68 @@ export default function Content() {
         </p>
       </div>
       <div className="content-cn">
-        <div className="content-citynumber">
-          {data.map((x, i) => (
-            <div key={x.id} className="content-block">
-              <div className="content-number">
-                <div className="content-number-items">
-                  <div className="content-number-item">{x.id}</div>
+        {data.map((x, i) => (
+          <div key={x.id} className="content-block">
+            <div className="content-number">
+              <div className="content-number-items">
+                <div className="content-number-item">{x.id}</div>
+              </div>
+            </div>
+            <div className="content-city">
+              <div className="content-city-items">
+                <div className="content-city-item">
+                  <span>{x.name}</span>
                 </div>
               </div>
-              <div className="content-city">
-                <div className="content-city-items">
-                  <div className="content-city-item">
-                    <span>{x.name}</span>
-                  </div>
-                </div>
-              </div>{" "}
+            </div>{" "}
+          </div>
+        ))}
+      </div>
+      <div className="content-bottom">
+        <div className="content-bottom-item">
+          <div className="content-bottom-tree">
+            <div className="content-bottom-tree-img">
+              <img
+                src="https://assets.yemeksepeti.com/images/frontpage/anonyColumnFirst.png?v=e6af34f6337da489f59fadac9f07c242cae70eea"
+                alt="restorani sec"
+              />
             </div>
-          ))}
+            <span className="content-bottom-tree-art">restoranı seç</span>{" "}
+          </div>
+          <div className="content-bottom-tree">
+            <div className="content-bottom-tree-img">
+              <img
+                src="https://assets.yemeksepeti.com/images/frontpage/anonyColumnSecond.png?v=e6af34f6337da489f59fadac9f07c242cae70eea"
+                alt="siparisini ver"
+              />
+            </div>
+            <span className="content-bottom-tree-art">siparişini ver</span>{" "}
+          </div>
+          <div className="content-bottom-tree">
+            <div className="content-bottom-tree-img">
+              <img
+                src="https://assets.yemeksepeti.com/images/frontpage/anonyColumnLast.png?v=e6af34f6337da489f59fadac9f07c242cae70eea"
+                alt="diledigin gibi ode"
+              />
+            </div>
+            <span className="content-bottom-tree-art">dilediğin gibi öde</span>{" "}
+          </div>
         </div>
       </div>
+      <div className="content-bottom-article">
+        <span>
+          Pizza, lahmacun, sandviç, kebap, döner, hamburger ve tüm yemek
+          siparişlerinizi en hızlı ve en kolay şekilde alıyor, ilgili restorana
+          anında iletiyoruz.
+          <b> Kredi kartı, güvenlik sorunu yok.</b> Yemek siparişinizi hiçbir
+          ekstra ücret ödemeden verin, <b>10-45 dakika</b> (restoranın ortalama
+          gönderim süresi) içerisinde yemeğiniz elinizde olsun.
+        </span>{" "}
+      </div>{" "}
+      <img
+        className="content-bottom-bg"
+        src="https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/citySelectImg/sehirsecim-gorseller-big03.jpg"
+      />
     </div>
   );
 }

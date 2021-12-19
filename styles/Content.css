@@ -22,11 +22,9 @@
 }
 .content-cn {
   width: 1009px;
-}
-.content-citynumber {
-  width: 100%;
   display: block;
 }
+
 .content-block {
   display: inline-block;
   width: 62px;
@@ -54,6 +52,11 @@
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 8%);
   padding: 0 2px 2px 2px;
   margin-bottom: 5px;
+  transition: 0.2s;
+}
+.content-number-items:hover {
+  color: #f6a31c;
+  background-color: white;
 }
 .content-number-item {
   display: flex;
@@ -78,8 +81,58 @@
   font-size: 12px;
 }
 
-.cyprus-img {
+.content-bottom {
+  width: 1009px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.content-bottom-item {
+  display: flex;
+  flex-direction: row;
+}
+.content-bottom-tree {
+  width: 189px;
+  height: 104px;
+  /* border-right: 2px solid rgba(0, 0, 0, 0.212); */
+}
+.content-block-tree-img {
+  width: 189px;
+  height: 104px;
+}
+.content-block-tree-img img {
+  display: flex;
+  justify-content: flex-start;
+  text-align: flex-start;
   object-fit: cover;
-  width: 15px;
-  height: 15px;
+}
+.content-bottom-tree-art {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fa0050;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.content-bottom-article {
+  width: 1009px;
+  position: relative;
+  font-size: 11px;
+  font-weight: 400;
+  z-index: 1;
+  margin-bottom: 24px;
+  margin-top: 30px;
+  padding: 10px;
+  line-height: 18px;
+}
+.content-bottom-bg {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 700px;
+  width: 450px;
+  height: 450px;
 }
