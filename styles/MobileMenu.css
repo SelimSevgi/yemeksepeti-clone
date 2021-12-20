@@ -1,6 +1,11 @@
+.mobil {
+  display: none;
+}
 @media screen and (max-width: 768px) {
   .mobil {
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
   .mobil-header {
     width: 100%;
