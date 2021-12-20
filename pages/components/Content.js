@@ -2,7 +2,7 @@ import React from "react";
 import {  FaGlobeAmericas } from "react-icons/fa";
 
 export default function Content() {
-  const data = [
+  const data = [ 
     { id: "01", name: "Adana" },
     { id: "02", name: "Adıyaman" },
     {
@@ -26,8 +26,7 @@ export default function Content() {
     { id: "13", name: "Bitlis" },
     { id: "14", name: "Bolu" },
     { id: "15", name: "Burdur" },
-    { id: "16", name: "Bursa" },
-    { id: "17", name: "Çanakkale" },
+    { id: "16", name: "BuÇanakkale" },
     { id: "18", name: "Çankırı" },
     { id: "19", name: "Çorum" },
     { id: "20", name: "Denizli" },
