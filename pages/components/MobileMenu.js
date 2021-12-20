@@ -109,7 +109,7 @@ export default function MobileMenu() {
           </div>
         </div>
 
-        <label for="htmlFor" className="sdas">
+        <label htmlFor="html" className="sdas">
           {" "}
           <input
             type="text"
