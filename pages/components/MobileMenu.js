@@ -1,7 +1,7 @@
 import React from "react";
 import { HiOutlineMenu } from "react-icons/hi";
 import { AiOutlineSearch } from "react-icons/ai";
-import { FaGlobeAmericas } from "react-icons/fa";
+
 import { RiCheckboxCircleLine } from "react-icons/ri";
 
 export default function MobileMenu() {
@@ -121,8 +121,8 @@ export default function MobileMenu() {
       </div>
       <div className="aaa">
         {data.map((x, i) => (
-          <div className="bbb">
-            <div key={x.id} className="ccc">
+          <div key={x.id} className="bbb">
+            <div  className="ccc">
               <span className="ddd">{x.id}</span>
               <span className="eee">{x.name}</span>
             </div>
