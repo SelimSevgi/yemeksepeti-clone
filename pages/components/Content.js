@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBeer, FaGlobeAmericas } from "react-icons/fa";
+import {  FaGlobeAmericas } from "react-icons/fa";
 
 export default function Content() {
   const data = [
