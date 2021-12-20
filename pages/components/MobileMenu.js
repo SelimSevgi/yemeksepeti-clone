@@ -108,7 +108,9 @@ export default function MobileMenu() {
             <p>Şehrinizi Seçiniz</p>
           </div>
         </div>
-        <div className="sdas">
+
+        <label for="html" className="sdas">
+          {" "}
           <input
             type="text"
             id="sehir"
@@ -117,12 +119,12 @@ export default function MobileMenu() {
             className="mobil-header-2"
           />
           <AiOutlineSearch className="mobil-icon" />
-        </div>
+        </label>
       </div>
       <div className="aaa">
         {data.map((x, i) => (
           <div key={x.id} className="bbb">
-            <div  className="ccc">
+            <div className="ccc">
               <span className="ddd">{x.id}</span>
               <span className="eee">{x.name}</span>
             </div>

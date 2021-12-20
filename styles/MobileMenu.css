@@ -3,7 +3,7 @@
     width: 100%;
   }
   .mobil-header {
-    width: 414px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25px;
+    width: auto;
     height: 49px;
     color: white;
     font-weight: 700;
@@ -37,10 +37,12 @@
     font-weight: 700;
   }
   .sdas {
+    width: 90%;
     height: 49px;
+    position: relative;
   }
   .mobil-header-2 {
-    width: 390px;
+    width: 100%;
 
     display: relative;
 
@@ -52,15 +54,15 @@
 
   .mobil-icon {
     position: absolute;
-    top: 8.3%;
-    left: 4%;
+    left: 1.5%;
+    top: 25%;
   }
   ul .dasda {
     list-style-type: none;
     text-decoration: none;
   }
   .aaa {
-    width: 414px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -8,7 +8,7 @@ import MobileMenu from "./components/MobileMenu";
 
 export default function sehirsecimi() {
   return (
-    <div>
+    <div className="container">
       <Header />
       <Content />
       <Footer />
