@@ -1,8 +1,9 @@
 import React from "react";
-import { HiOutlineMenu } from "react-icons/hi";
+
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { RiCheckboxCircleLine } from "react-icons/ri";
+import MobileBttn from "./MobileBttn";
 
 export default function MobileMenu() {
   const data = [
@@ -103,7 +104,7 @@ export default function MobileMenu() {
     <div className="mobil">
       <div className="mobil-header">
         <div className="mobil-header-1">
-          <HiOutlineMenu className="mobil-header-1-1" />
+          <MobileBttn />
           <div className="mobil-header-1-2">
             <p>Şehrinizi Seçiniz</p>
           </div>

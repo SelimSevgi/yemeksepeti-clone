@@ -1,5 +1,5 @@
-.mobilebttn{
-    display: none;
+.mobilebttn {
+  display: none;
 }
 @media screen and (max-width: 768px) {
   .mobilebttn {
@@ -9,6 +9,11 @@
     justify-content: center;
     align-items: center;
     background-color: #dedede;
+    position: fixed;
+    height: 100vh;
+    z-index: 1;
+    left: 0;
+    top: 0;
   }
   .mb-dizayn {
     width: 95%;
@@ -16,7 +21,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-   
+
     margin: 10px 0px 10px 5%;
   }
   .mb-close {
@@ -28,7 +33,7 @@
     width: 95%;
     display: flex;
     flex-direction: row;
-    
+
     border: none;
     object-fit: cover;
   }
@@ -37,7 +42,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
   .mb-src-in-i {
     width: 100%;
@@ -48,9 +52,9 @@
     align-items: center;
   }
   .mb-src-btn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 20%;
     height: 39px;
     background-color: #fab84c !important;
@@ -70,78 +74,73 @@
     background-color: #dedede;
     border: 1px solid #d7d7d7;
   }
-   .zzz:hover{
-      color: white;
-      background: #29cc81;
-      border: none;
+  .zzz:hover {
+    color: white;
+    background: #29cc81;
+    border: none;
   }
   .zzza {
     display: flex;
     flex-direction: row;
     padding-left: 7%;
     align-items: center;
-    
   }
-  .zzzd{
-      width: auto;
-      height: 25px;
-      font-weight: 700;
-      color: black;
+  .zzzd {
+    width: auto;
+    height: 25px;
+    font-weight: 700;
+    color: black;
   }
-  .zzzb{
-      height: 25px;
-      width: auto;
-      color: black;
-      margin-right: 5%;
+  .zzzb {
+    height: 25px;
+    width: auto;
+    color: black;
+    margin-right: 5%;
   }
 
-
-  .zzzc{
-      height: 20px;
-      width: auto;
-      color: #767676;
+  .zzzc {
+    height: 20px;
+    width: auto;
+    color: #767676;
   }
-  .sssa{
-      width: 115px;
-      height: 36px ;
-      background-color: white;
-      color: #29cc81;
-      border: 1px solid #29cc81;
-      border-radius: 50px;
+  .sssa {
+    width: 115px;
+    height: 36px;
+    background-color: white;
+    color: #29cc81;
+    border: 1px solid #29cc81;
+    border-radius: 50px;
     margin: 20px 0;
   }
-  .is{
-    width: 90%;  
+  .is {
+    width: 90%;
     display: flex;
-      flex-direction: row;
-      justify-content:space-between ;
+    flex-direction: row;
+    justify-content: space-between;
     background: #ededed;
- border: 1px solid #c4c4c4;
+    border: 1px solid #c4c4c4;
     border-radius: 10px;
     padding: 2%;
   }
-  .isa{
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  .isa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .iss{
-      display: flex;
-      flex-direction: row;
-
+  .iss {
+    display: flex;
+    flex-direction: row;
   }
-  .iss span{
-      font-weight: 700;
+  .iss span {
+    font-weight: 700;
   }
-  .is button{
-      
+  .is button {
     width: 40%;
     width: auto;
     max-height: 50%;
-      border: none;
-      border-radius: 5px;
-      background: #29cc81;
-      color: white;
+    border: none;
+    border-radius: 5px;
+    background: #29cc81;
+    color: white;
   }
-
 }

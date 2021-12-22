@@ -5,7 +5,7 @@ import Content from "./components/Content";
 import Footer from "./components/Footer";
 import PageEnd from "./components/PageEnd";
 import MobileMenu from "./components/MobileMenu";
-import MobileBttn from "./components/MobileBttn";
+
 
 export default function sehirsecimi() {
   return (
@@ -15,7 +15,7 @@ export default function sehirsecimi() {
       <Footer />
       <PageEnd />
       <MobileMenu />
-      <MobileBttn />
+      
     </div>
   );
 }
