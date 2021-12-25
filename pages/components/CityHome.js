@@ -6,7 +6,8 @@ import {
   RiNumber2,
   RiNumber3,
 } from "react-icons/ri";
-import PageEnd from "./PageEnd";
+import CityHomeSlider from "./CityHomeSlider";
+
 
 export default function CityHome() {
   return (
@@ -109,6 +110,35 @@ export default function CityHome() {
                 </span>
               </div>
             </div>
+            <div className="city-down-left-h">
+              <div className="city-down-left-l">
+                <img src="https://cdn.yemeksepeti.com/adm/Web-2yrz0a.jpg" />
+                <CityHomeSlider />
+                <img src="https://cdn.yemeksepeti.com/adm/Web-oa8xxb.jpg" />
+                <img src="https://cdn.yemeksepeti.com/adm/Web-xvlsnx.jpg" />
+              </div>
+              <div className="city-down-left-r">
+                <div className="city-down-left-r-a">
+                  <p>Süper Restoranlar</p>
+                  <div className="city-down-left-r-b">
+                    <span className="city-down-left-r-c">8.9</span>
+                    <img
+                      className="city-down-left-r-d"
+                      src="https://www.yemeksepeti.com/assets/images/mobile/superdelivery-icon.png"
+                    />
+                    <span>Cadde Kebap, Yeşilyurt (Ö...</span>
+                  </div>
+                  <div className="city-down-left-r-b">
+                    <span className="city-down-left-r-c">8.9</span>
+                    <img
+                      className="city-down-left-r-d"
+                      src="https://www.yemeksepeti.com/assets/images/mobile/superdelivery-icon.png"
+                    />
+                    <span>Cadde Kebap, Yeşilyurt (Ö...</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="city-down-right">
@@ -129,7 +159,9 @@ export default function CityHome() {
           </a>{" "}
         </div>
       </div>
-      <PageEnd />
+    
+      
+     
     </div>
   );
 }
