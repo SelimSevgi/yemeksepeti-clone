@@ -1,6 +1,11 @@
 import React from "react";
 import { AiFillFacebook, AiOutlineSearch } from "react-icons/ai";
-import { RiShoppingBasket2Fill } from "react-icons/ri";
+import {
+  RiShoppingBasket2Fill,
+  RiNumber1,
+  RiNumber2,
+  RiNumber3,
+} from "react-icons/ri";
 import PageEnd from "./PageEnd";
 
 export default function CityHome() {
@@ -67,7 +72,44 @@ export default function CityHome() {
               </div>
             </div>
           </div>
-          <p>content</p>
+          <div className="city-down-left-2">
+            <h2>Kredi kartınız bizi hiç ilgilendirmiyor!</h2>
+            <p>
+              {" "}
+              Siparişlerinizi en doğru, en hızlı ve en kolay şekilde alıyor,
+              ilgili restorana eksiksiz ve anında iletiyoruz. Kredi kartı,
+              güvenlik sorunu yok. Siparişinizi{" "}
+              <b>hiçbir ekstra ücret ödemeden</b> verin,<b>10-45 dakika</b>{" "}
+              (restoranın ortalama gönderim süresi) içerisinde yemeğiniz
+              elinizde olsun.
+            </p>
+            <div className="city-down-left-2a">
+              <div className="city-down-left-2b">
+                <img src="https://assets.yemeksepeti.com/images/frontpage/yemekara.png?v=d3a34e41ad48d4263fa280c994b9816156c65ab1" />
+                <span>
+                  {" "}
+                  <RiNumber1 className="city-down-left-2c" /> RESTORAN VEYA{" "}
+                  <br /> YEMEK ARA
+                </span>
+              </div>
+              <div className="city-down-left-2b">
+                <img src="https://assets.yemeksepeti.com/images/frontpage/siparisver.png?v=d3a34e41ad48d4263fa280c994b9816156c65ab1" />
+                <span>
+                  {" "}
+                  <RiNumber2 className="city-down-left-2c" /> SİPARİŞİNİ VER
+                </span>
+              </div>
+              <div className="city-down-left-2b">
+                <img src="https://assets.yemeksepeti.com/images/frontpage/ode.png?v=d3a34e41ad48d4263fa280c994b9816156c65ab1" />
+                <span>
+                  {" "}
+                  <RiNumber3 className="city-down-left-2c" /> KAPINDA VEYA{" "}
+                  <br />
+                  ONLINE ÖDE
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="city-down-right">
           <a href="https://www.yemeksepeti.com/yilbasi-menuleri-malatya">

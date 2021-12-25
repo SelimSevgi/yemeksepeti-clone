@@ -16,14 +16,13 @@
   width: 1009px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
 }
 .city-up img {
   width: 160px;
   height: 30px;
-  margin-right: 30%;
 }
 .city-up select {
   width: 240px;
@@ -55,15 +54,7 @@
   background-color: #f6a31c;
   border: none;
 }
-.city-up:nth-child(1) {
-  width: 30%;
-}
-.city-up:nth-child(2) {
-  width: 20%;
-}
-.city-up:nth-child(3) {
-  width: 50%;
-}
+
 .city-down {
   width: 1100px;
   display: flex;
@@ -78,14 +69,14 @@
   justify-content: space-between;
 }
 .city-down-left-1 {
-  width: 100%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
 .city-down-left-a {
-  width: 25%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -203,7 +194,7 @@
   text-decoration: underline;
 }
 .city-down-left-e {
-  width: 25%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -239,6 +230,57 @@
   height: 41px;
   margin-right: 10px;
   color: #e5e5e5;
+}
+
+.city-down-left-2 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 15px;
+}
+.city-down-left-2 h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.city-down-left-2 span {
+  font-size: 11px;
+}
+.city-down-left-2a {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.city-down-left-2b {
+  display: flex;
+  width: 33%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.city-down-left-2b:nth-child(2) {
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+.city-down-left-2b span {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+.city-down-left-2c {
+  background-color: #fa0050;
+  color: white;
+  border-radius: 100px;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 5px 0.2px;
+  margin-right: 10px;
 }
 
 .city-down-right {
