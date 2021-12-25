@@ -37,7 +37,7 @@ export default function CityHome() {
               <input type="text" />
 
               <div className="city-down-left-b">
-                <a href="/">Şifremi unuttum</a>
+                <a href="#">Şifremi unuttum</a>
                 <div className="city-down-left-b-1">
                   <input type="checkbox" />
                   <span>Beni hatırla</span>
@@ -54,7 +54,7 @@ export default function CityHome() {
               </div>
               <div className="city-down-left-d">
                 <span>Üyeliğiniz yok mu?</span>
-                <a href="/">Yeni Üyelik!</a>
+                <a href="#">Yeni Üyelik!</a>
               </div>
             </form>
             <div className="city-down-left-e">
