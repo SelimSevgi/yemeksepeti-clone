@@ -1,0 +1,245 @@
+.cityhome {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cityhome-color {
+  width: 100%;
+  background: #fa0050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.city-up {
+  width: 1009px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+.city-up img {
+  width: 160px;
+  height: 30px;
+  margin-right: 30%;
+}
+.city-up select {
+  width: 240px;
+  height: 40px;
+  margin: 0 5px;
+  border-radius: 3px;
+}
+.city-up-a select {
+  position: relative;
+}
+.city-up-a span {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.city-up-b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.city-up-b input {
+  width: 432px;
+  height: 40px;
+}
+.city-up-b button {
+  width: 65px;
+  height: 40px;
+  color: black;
+  background-color: #f6a31c;
+  border: none;
+}
+.city-up:nth-child(1) {
+  width: 30%;
+}
+.city-up:nth-child(2) {
+  width: 20%;
+}
+.city-up:nth-child(3) {
+  width: 50%;
+}
+.city-down {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.city-down-left {
+  width: 1009px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.city-down-left-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.city-down-left-a {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+
+  font-size: 11px;
+  font-weight: 700;
+}
+.city-down-left-a label,
+.city-down-left-a input {
+  margin: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+}
+.city-down-left-a input {
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+
+.city-down-left-b {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  font-weight: 700;
+
+  align-items: center;
+  margin-left: 5px;
+}
+.city-down-left-b a {
+  color: #fa0050;
+  text-decoration: underline;
+  font-weight: 300;
+}
+.city-down-left-b-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.city-down-left-b a:hover {
+  color: black;
+}
+.city-down-left-b-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+.city-down-left-b-1 span {
+  display: inline-block;
+}
+.city-down-left-c {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  justify-content: center;
+  flex-direction: column;
+}
+.city-down-left-c button {
+  width: 100%;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+  justify-content: center;
+}
+.city-down-left-c button:nth-child(1) {
+  width: 100%;
+  padding: 10px 40px;
+  background: #29cc81;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+.city-down-left-c button:nth-child(1):hover {
+  background-color: green;
+}
+
+.city-down-left-c button:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 30px 5px 13px;
+  font-size: 12px;
+  font-weight: 700;
+  background: #1a78f2;
+  color: white;
+  width: 100%;
+}
+.city-down-left-c button:nth-child(3):hover {
+  background-color: #0c62d2;
+}
+.city-down-left-d {
+  margin-top: 15px;
+  width: 100%;
+  background: #efefef;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+.city-down-left-d a {
+  color: #fa0050;
+  text-decoration: underline;
+}
+.city-down-left-e {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid #e5e5e5;
+  margin-top: 15px;
+  border-radius: 3px;
+}
+.city-down-left-f {
+  width: 100%;
+  height: 30px;
+  background-color: #fa0050;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 5px;
+}
+.city-down-left-g {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  padding: 15px 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+.city-down-left-h {
+  width: 47px;
+  height: 41px;
+  margin-right: 10px;
+  color: #e5e5e5;
+}
+
+
+
