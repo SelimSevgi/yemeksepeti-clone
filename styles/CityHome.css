@@ -61,6 +61,7 @@
   justify-content: space-between;
   z-index: 1;
   margin-top: 10px;
+  align-items: flex-start;
 }
 .city-down-left {
   width: 1009px;
