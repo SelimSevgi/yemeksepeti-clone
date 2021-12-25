@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillFacebook, AiOutlineSearch } from "react-icons/ai";
 import { RiShoppingBasket2Fill } from "react-icons/ri";
+import PageEnd from "./PageEnd";
 
 export default function CityHome() {
   return (
@@ -68,8 +69,25 @@ export default function CityHome() {
           </div>
           <p>content</p>
         </div>
-        <div className="city-down-right">banner</div>
+        <div className="city-down-right">
+          <a href="https://www.yemeksepeti.com/yilbasi-menuleri-malatya">
+            <img src="https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/specialcategory/yilbasiweb.png?v=v2" />
+          </a>
+          <a href="https://www.yemeksepeti.com/vodafone-menuleri-malatya">
+            <img src="https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/specialcategory/vodafonemenuleri_icon.png?v=v2" />
+          </a>
+          <a href="https://www.yemeksepeti.com/malatya-secilmis-menuler">
+            <img src="https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/specialcategory/secilmis_menuler.png?v=v2" />
+          </a>{" "}
+          <a href="https://www.yemeksepeti.com/fit-hafif-menuler-malatya">
+            <img src="https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/specialcategory/fit_hafif_menuler_icon.png?v=v2" />
+          </a>
+          <a href="https://www.yemeksepeti.com/malatya-universite-kampusleri">
+            <img src="https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/kampusicon.png?v=v2" />
+          </a>{" "}
+        </div>
       </div>
+      <PageEnd />
     </div>
   );
 }

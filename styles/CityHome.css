@@ -68,7 +68,7 @@
   width: 1100px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
   margin-top: 10px;
 }
 .city-down-left {
@@ -241,5 +241,12 @@
   color: #e5e5e5;
 }
 
-
-
+.city-down-right {
+  display: flex;
+  flex-direction: column;
+  width: 7%;
+  height: auto;
+}
+.city-down-right img {
+  margin-top: 10%;
+}

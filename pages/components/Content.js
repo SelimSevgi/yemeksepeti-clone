@@ -1,8 +1,8 @@
 import React from "react";
-import {  FaGlobeAmericas } from "react-icons/fa";
-
+import { FaGlobeAmericas } from "react-icons/fa";
+import sehir from "../sehir";
 export default function Content() {
-  const data = [ 
+  const data = [
     { id: "01", name: "Adana" },
     { id: "02", name: "Adıyaman" },
     {
@@ -117,9 +117,11 @@ export default function Content() {
         {data.map((x, i) => (
           <div key={x.id} className="content-block">
             <div className="content-number">
-              <div className="content-number-items">
-                <div className="content-number-item">{x.id}</div>
-              </div>
+              <a href="sehir" target="_blank">
+                <div className="content-number-items">
+                  <div className="content-number-item">{x.id}</div>
+                </div>
+              </a>
             </div>
             <div className="content-city">
               <div className="content-city-items">
