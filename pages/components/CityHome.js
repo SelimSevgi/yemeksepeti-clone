@@ -1,5 +1,9 @@
 import React from "react";
-import { AiFillFacebook, AiOutlineSearch } from "react-icons/ai";
+import {
+  AiFillFacebook,
+  AiOutlineSearch,
+  AiFillCaretRight,
+} from "react-icons/ai";
 import {
   RiShoppingBasket2Fill,
   RiNumber1,
@@ -7,7 +11,6 @@ import {
   RiNumber3,
 } from "react-icons/ri";
 import CityHomeSlider from "./CityHomeSlider";
-
 
 export default function CityHome() {
   return (
@@ -29,7 +32,7 @@ export default function CityHome() {
             />
             <button>
               {" "}
-              <AiOutlineSearch />
+              <AiOutlineSearch className="city-up-b-icon" />
             </button>
           </div>
         </div>
@@ -129,12 +132,79 @@ export default function CityHome() {
                     <span>Cadde Kebap, Yeşilyurt (Ö...</span>
                   </div>
                   <div className="city-down-left-r-b">
-                    <span className="city-down-left-r-c">8.9</span>
+                    <span className="city-down-left-r-c">9.1</span>
                     <img
                       className="city-down-left-r-d"
                       src="https://www.yemeksepeti.com/assets/images/mobile/superdelivery-icon.png"
                     />
-                    <span>Cadde Kebap, Yeşilyurt (Ö...</span>
+
+                    <span>Adana Ciğer 01, Yeşilyurt...</span>
+                  </div>
+                  <div>
+                    <a href="https://www.yemeksepeti.com/malatya-yemek-firsatlari">
+                      Tüm fırsatlar
+                    </a>
+                  </div>
+                </div>
+
+                <div className="city-down-left-r-a">
+                  <p>Fırsatlar</p>
+                  <div className="city-down-left-r-b">
+                    <AiFillCaretRight />
+                    <span className="city-down-left-r-e">
+                      Popeyes, Yeşilyurt (İnönü Mah. - Malatya Park Avm)
+                    </span>
+                  </div>
+                  <div>
+                    <span className="city-down-left-r-f">
+                      Sadece Yemeksepeti'nde, 'Müthiş Fırsat Kovası' 70,57 TL
+                      yerine 39,99 TL!
+                    </span>
+                  </div>
+                  <div className="city-down-left-r-b">
+                    <AiFillCaretRight />
+                    <span className="city-down-left-r-e">
+                      Burger King, Yeşilyurt (Çilesiz Mah. - Fahri Kayahan Blv.)
+                    </span>
+                  </div>
+                  <div>
+                    <span className="city-down-left-r-f">
+                      Sadece Yemeksepeti'nde, 'Seçilmiş Menü (3'lü Whopper
+                      Fırsatı®)' 101,97 TL yerine 59,97 TL!
+                    </span>
+                  </div>
+                  <div>
+                    <a href="https://www.yemeksepeti.com/malatya/restoran-arama#sof:5|sob:true|ors:true|sd:true">
+                      Tüm Süper Restoranlar
+                    </a>
+                  </div>
+                </div>
+
+                <div className="city-down-left-r-a">
+                  <p>Yeni Eklenen Restoranlar</p>
+                  <div className="city-down-left-r-b">
+                    <AiFillCaretRight />
+                    <span className="city-down-left-r-e">
+                      Popeyes, Yeşilyurt (İnönü Mah. - Malatya Park Avm)
+                    </span>
+                  </div>
+                  <div>
+                    <span className="city-down-left-r-f">
+                      Sadece Yemeksepeti'nde, 'Müthiş Fırsat Kovası' 70,57 TL
+                      yerine 39,99 TL!
+                    </span>
+                  </div>
+                  <div className="city-down-left-r-b">
+                    <AiFillCaretRight />
+                    <span className="city-down-left-r-e">
+                      Burger King, Yeşilyurt (Çilesiz Mah. - Fahri Kayahan Blv.)
+                    </span>
+                  </div>
+                  <div>
+                    <span className="city-down-left-r-f">
+                      Sadece Yemeksepeti'nde, 'Seçilmiş Menü (3'lü Whopper
+                      Fırsatı®)' 101,97 TL yerine 59,97 TL!
+                    </span>
                   </div>
                 </div>
               </div>
@@ -159,9 +229,6 @@ export default function CityHome() {
           </a>{" "}
         </div>
       </div>
-    
-      
-     
     </div>
   );
 }
