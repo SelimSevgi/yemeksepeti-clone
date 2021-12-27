@@ -169,8 +169,8 @@ export default function CityHome() {
                   </div>
                   <div>
                     <span className="city-down-left-r-f">
-                      Sadece Yemeksepeti'nde, 'Seçilmiş Menü (3'lü Whopper
-                      Fırsatı®)' 101,97 TL yerine 59,97 TL!
+                      Sadece Yemeksepeti&apos;nde, &apos;Seçilmiş Menü (3&apos;lü Whopper
+                      Fırsatı®)&apos; 101,97 TL yerine 59,97 TL!
                     </span>
                   </div>
                   <div>
@@ -190,7 +190,7 @@ export default function CityHome() {
                   </div>
                   <div>
                     <span className="city-down-left-r-f">
-                      Sadece Yemeksepeti'nde, 'Müthiş Fırsat Kovası' 70,57 TL
+                      Sadece Yemeksepeti&apos;nde, &apos;Müthiş Fırsat Kovası&apos; 70,57 TL
                       yerine 39,99 TL!
                     </span>
                   </div>
@@ -202,8 +202,8 @@ export default function CityHome() {
                   </div>
                   <div>
                     <span className="city-down-left-r-f">
-                      Sadece Yemeksepeti'nde, 'Seçilmiş Menü (3'lü Whopper
-                      Fırsatı®)' 101,97 TL yerine 59,97 TL!
+                      Sadece Yemeksepeti&apos;nde, &apos;Seçilmiş Menü (3&apos;lü Whopper
+                      Fırsatı®)&apos; 101,97 TL yerine 59,97 TL!
                     </span>
                   </div>
                 </div>
