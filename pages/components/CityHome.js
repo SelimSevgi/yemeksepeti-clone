@@ -157,7 +157,7 @@ export default function CityHome() {
                   </div>
                   <div>
                     <span className="city-down-left-r-f">
-                      Sadece Yemeksepeti&aposnde, &aposMüthiş Fırsat Kovası&apos
+                      Sadece Yemeksepeti&apos;nde, &apos;Müthiş Fırsat Kovası&apos;
                       70,57 TL yerine 39,99 TL!
                     </span>
                   </div>
