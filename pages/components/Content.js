@@ -26,7 +26,7 @@ export default function Content() {
     { id: "13", name: "Bitlis" },
     { id: "14", name: "Bolu" },
     { id: "15", name: "Burdur" },
-    { id: "16", name: "BuÇanakkale" },
+    { id: "16", name: "Çanakkale" },
     { id: "18", name: "Çankırı" },
     { id: "19", name: "Çorum" },
     { id: "20", name: "Denizli" },
