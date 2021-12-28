@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1%;
 }
 .city-up {
   width: 1009px;
@@ -78,11 +79,11 @@
   width: 30%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: center;
 }
 .city-down-left-a {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -93,13 +94,16 @@
   font-size: 11px;
   font-weight: 700;
 }
-.city-down-left-a label,
-.city-down-left-a input {
+.city-down-left-a label {
   margin: 5px 0 0 5px;
   display: flex;
   align-items: center;
 }
-.city-down-left-a input {
+.city-down-left-a input:nth-child(2),
+.city-down-left-a input:nth-child(4) {
+  margin: 5px 0 0 5px;
+
+  align-items: center;
   border: 1px solid #e5e5e5;
   border-radius: 3px;
   width: 95%;
@@ -200,7 +204,7 @@
   text-decoration: underline;
 }
 .city-down-left-e {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -230,6 +234,12 @@
   padding: 15px 0;
   font-size: 12px;
   font-weight: 700;
+  width: 100%;
+  color: #e5e5e5;
+}
+.city-down-left-g span {
+  width: 100%;
+  color: black;
 }
 .city-down-left-h {
   width: 47px;
@@ -240,7 +250,7 @@
 
 .city-down-left-2 {
   width: 70%;
-  height: 1140px;
+  height: 866px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -411,6 +421,9 @@
   padding: 2% 5%;
   text-decoration: underline;
 }
+.city-down-left-r-a div:nth-child(6):hover {
+  color: black;
+}
 .city-down-left-r-b {
   display: flex;
   justify-content: space-between;
@@ -430,6 +443,11 @@
   border-radius: 4px;
   margin: 5px 5px;
   padding: 2px 4px;
+}
+.city-down-left-c-icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
 }
 .city-down-left-r-d {
   height: 19px;
@@ -465,6 +483,16 @@
   padding-left: 10%;
   font-weight: 200;
   margin-top: 5px;
+}
+.city-down-left-r-g {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 11px;
+  color: black;
+}
+.city-down-left-r-g:hover {
+  color: #ff6508;
 }
 .city-down-right {
   display: flex;
@@ -504,7 +532,7 @@
   margin: 0 !important;
   width: 100%;
   background-color: #ffffff52;
-  z-index: 0;
+  z-index: 5;
   padding: 0 !important;
   border: none !important;
 }

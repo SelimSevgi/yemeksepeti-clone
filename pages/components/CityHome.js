@@ -58,7 +58,7 @@ export default function CityHome() {
                 <p>veya</p>
                 <button>
                   {" "}
-                  <AiFillFacebook />
+                  <AiFillFacebook className="city-down-left-c-icon" />
                   Facebook ile Giriş Yap
                 </button>
               </div>
@@ -71,8 +71,10 @@ export default function CityHome() {
               <div className="city-down-left-f">YEMEK SEPETİM</div>
               <div className="city-down-left-g">
                 {" "}
-                <RiShoppingBasket2Fill className="city-down-left-h" /> Sepetiniz
-                henüz boş.
+                <RiShoppingBasket2Fill
+                  style={{ width: "60%", height: "40px" }}
+                />
+                <span>Sepetiniz henüz boş.</span>
               </div>
             </div>
           </div>
@@ -157,8 +159,8 @@ export default function CityHome() {
                   </div>
                   <div>
                     <span className="city-down-left-r-f">
-                      Sadece Yemeksepeti&apos;nde, &apos;Müthiş Fırsat Kovası&apos;
-                      70,57 TL yerine 39,99 TL!
+                      Sadece Yemeksepeti&apos;nde, &apos;Müthiş Fırsat
+                      Kovası&apos; 70,57 TL yerine 39,99 TL!
                     </span>
                   </div>
                   <div className="city-down-left-r-b">
@@ -169,8 +171,9 @@ export default function CityHome() {
                   </div>
                   <div>
                     <span className="city-down-left-r-f">
-                      Sadece Yemeksepeti&apos;nde, &apos;Seçilmiş Menü (3&apos;lü Whopper
-                      Fırsatı®)&apos; 101,97 TL yerine 59,97 TL!
+                      Sadece Yemeksepeti&apos;nde, &apos;Seçilmiş Menü
+                      (3&apos;lü Whopper Fırsatı®)&apos; 101,97 TL yerine 59,97
+                      TL!
                     </span>
                   </div>
                   <div>
@@ -184,27 +187,22 @@ export default function CityHome() {
                   <p>Yeni Eklenen Restoranlar</p>
                   <div className="city-down-left-r-b">
                     <AiFillCaretRight />
-                    <span className="city-down-left-r-e">
-                      Popeyes, Yeşilyurt (İnönü Mah. - Malatya Park Avm)
-                    </span>
+                    <a
+                      className="city-down-left-r-g"
+                      href="https://www.yemeksepeti.com/pacazade-yesilyurt-asagibaglar-mah-kuyuonu-malatya"
+                    >
+                      Paçazade, Yeşilyurt (Aşağıbağlar Mah. - Kuyuönü)
+                    </a>
                   </div>
-                  <div>
-                    <span className="city-down-left-r-f">
-                      Sadece Yemeksepeti&apos;nde, &apos;Müthiş Fırsat Kovası&apos; 70,57 TL
-                      yerine 39,99 TL!
-                    </span>
-                  </div>
+
                   <div className="city-down-left-r-b">
                     <AiFillCaretRight />
-                    <span className="city-down-left-r-e">
-                      Burger King, Yeşilyurt (Çilesiz Mah. - Fahri Kayahan Blv.)
-                    </span>
-                  </div>
-                  <div>
-                    <span className="city-down-left-r-f">
-                      Sadece Yemeksepeti&apos;nde, &apos;Seçilmiş Menü (3&apos;lü Whopper
-                      Fırsatı®)&apos; 101,97 TL yerine 59,97 TL!
-                    </span>
+                    <a
+                      className="city-down-left-r-g"
+                      href="https://www.yemeksepeti.com/unlu-cig-kofteci-mehmet-usta-battalgazi-halfettin-mah-malatya"
+                    >
+                      Ünlü Çiğ Köfteci Mehmet Usta, Battalgazi (Halfettin Mah.)
+                    </a>
                   </div>
                 </div>
               </div>
