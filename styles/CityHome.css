@@ -482,3 +482,54 @@
   align-items: center;
   width: 100%;
 }
+.carousel-status {
+  display: none;
+}
+.control-dots {
+  display: none;
+}
+.carousel-root {
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+.carousel {
+  display: flex;
+  position: absolute;
+  margin-top: -77px;
+  width: 100%;
+  padding: 0;
+  height: 59;
+}
+.carousel .thumbs-wrapper {
+  margin: 0 !important;
+  width: 100%;
+  background-color: #ffffff52;
+  z-index: 0;
+  padding: 0 !important;
+  border: none !important;
+}
+.carousel .thumb {
+  width: 100%;
+
+  padding: 0;
+  margin: 0%;
+  border: none !important;
+}
+.carousel .thumb img {
+  object-fit: cover !important;
+  height: 50px !important;
+}
+.carousel .thumb.selected,
+.carousel .thumb:hover {
+  border: none !important;
+}
+.thumbs-wrapper {
+  margin: 0 !important;
+}
+.carousel .thumb:focus {
+  border: none !important;
+}
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
