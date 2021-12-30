@@ -39,13 +39,7 @@ export default function CityHome() {
               onClick={(e) => setOpen(!open)}
             />
             {text.length <= 0 ? null : (
-              <>
-                {text.length > 3 ? (
-                  <div className="food">{text}</div>
-                ) : (
-                  <CityHomeFood />
-                )}
-              </>
+              <>{text.length > 3 ? <div>{text}</div> : <CityHomeFood />}</>
             )}
 
             <button>

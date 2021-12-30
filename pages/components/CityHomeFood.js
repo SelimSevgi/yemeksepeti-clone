@@ -20,13 +20,6 @@ export default function CityHomeFood() {
         />
       </div>
       <div className="food">
-        <div className="food-1">
-          <div className="food-1-1">
-            <span>Geçmiş Aramalarınız</span>
-            <a>( Temizle )</a>
-          </div>
-          <p>Lahmacun</p>
-        </div>
         <div className="food-2">
           <p>Popüler Aramalar</p>
           <div className="food-grid">
