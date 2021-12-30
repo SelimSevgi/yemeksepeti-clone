@@ -39,10 +39,12 @@
   right: 0;
   top: 0;
 }
+
 .city-up-b {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .city-up-b input {
   width: 432px;

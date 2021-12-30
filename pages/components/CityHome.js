@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   AiFillFacebook,
   AiOutlineSearch,
@@ -11,8 +11,13 @@ import {
   RiNumber3,
 } from "react-icons/ri";
 import CityHomeSlider from "./CityHomeSlider";
+import CityHomeFood from "./CityHomeFood";
+import { MdArrowDropUp } from "react-icons/md";
 
 export default function CityHome() {
+  const [text, setText] = useState("");
+  const [open, setOpen] = useState(false);
+
   return (
     <div className="cityhome">
       <div className="cityhome-color">
@@ -29,7 +34,20 @@ export default function CityHome() {
             <input
               type="text"
               placeholder="Yemek, mutfak veya restoran arayın."
+              onChange={(e) => setText(e.target.value)}
+              value={text}
+              onClick={(e) => setOpen(!open)}
             />
+            {text.length <= 0 ? null : (
+              <>
+                {text.length > 3 ? (
+                  <div className="food">{text}</div>
+                ) : (
+                  <CityHomeFood />
+                )}
+              </>
+            )}
+
             <button>
               {" "}
               <AiOutlineSearch className="city-up-b-icon" />
