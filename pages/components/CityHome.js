@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   AiFillFacebook,
   AiOutlineSearch,
@@ -13,23 +13,80 @@ import {
 import CityHomeSlider from "./CityHomeSlider";
 import CityHomeFood from "./CityHomeFood";
 import { MdArrowDropUp } from "react-icons/md";
+import dataSearch from "./data.json";
+const data = [
+  {
+    id: 1,
+    title: "Döner",
+  },
+  {
+    id: 2,
+    title: "Tatlı",
+  },
+  {
+    id: 3,
+    title: "Pizza",
+  },
+  {
+    id: 4,
+    title: "Lahmacun",
+  },
+  {
+    id: 5,
+    title: "Burger",
+  },
+  {
+    id: 6,
+    title: "Pide",
+  },
+  {
+    id: 7,
+    title: "Pasta",
+  },
+  {
+    id: 8,
+    title: "Çiğ Köfte",
+  },
+  {
+    id: 9,
+    title: "İskender",
+  },
+  {
+    id: 10,
+    title: "Baklava",
+  },
+];
+const data1 = [{ name: <div>asda</div> }];
 
 export default function CityHome() {
   const [text, setText] = useState("");
   const [open, setOpen] = useState(false);
-
+  const [result, setResult] = useState([]);
+  const [openSearch, setOpenSearch] = useState(false);
+  useEffect(() => {
+    if (text) {
+      setResult(
+        data.filter((item) =>
+          item.title.toLowerCase().includes(text.toLowerCase())
+        )
+      );
+    } else {
+      setResult([]);
+    }
+    console.log("RES:::", result, "TEXT:::", text);
+  }, [text]);
+  console.log(openSearch);
+  console.log(dataSearch[0]);
   return (
     <div className="cityhome">
       <div className="cityhome-color">
         <div className="city-up">
           <img src="https://assets.yemeksepeti.com/images/ys-new-logo.svg" />
-
           <select className="city-up-a" placeholder="Semtinizi Seçiniz">
             <option> </option>
             <option>yeşilyurt</option>
             <option>battalgazi</option>
           </select>
-
           <div className="city-up-b">
             <input
               type="text"
@@ -38,11 +95,62 @@ export default function CityHome() {
               value={text}
               onClick={(e) => setOpen(!open)}
             />
-            {text.length <= 0 ? null : (
-              <>{text.length > 3 ? <div>{text}</div> : <CityHomeFood />}</>
-            )}
+            {!openSearch && (
+              <>
+                {" "}
+                {text.length <= 0 ? null : (
+                  <>
+                    {result && (
+                      <div className="food-title-result">
+                        {result.map((item) => (
+                          <div key={item.id} className="food-title-result-item">
+                            {item.title}
+                          </div>
+                        ))}
+                        {text}
+                      </div>
+                    )}
 
-            <button>
+                    <CityHomeFood />
+                  </>
+                )}
+              </>
+            )}
+            {openSearch && (
+              <div className="search-result-main">
+                <span> Restoranlar</span>
+                <div className="search-result-map">
+                  {text === "pizza" ? (
+                    dataSearch.pizza.map((item, index) => (
+                      <div key={index} className="search-result">
+                        <img src={item.imgUrl} />
+                        <span>{item.rate}</span>
+                        <span>{item.text}</span>
+                      </div>
+                    ))
+                  ) : text === "lahmacun" ? (
+                    dataSearch.lahmacun.map((item, index) => (
+                      <div key={index} className="search-result">
+                        <img src={item.imgUrl} />
+                        <span>{item.rate}</span>
+                        <span>{item.text}</span>
+                      </div>
+                    ))
+                  ) : (
+                    <p
+                      style={{
+                        color: "red",
+                        fontSize: "13px",
+                        fontWeight: "700",
+                      }}
+                    >
+                      Aradığınız üründe restorant bulunamamaktadır!
+                    </p>
+                  )}
+                </div>
+              </div>
+            )}
+            <button onClick={() => setOpenSearch(!openSearch)}>
               {" "}
               <AiOutlineSearch className="city-up-b-icon" />
             </button>
@@ -84,7 +192,7 @@ export default function CityHome() {
               <div className="city-down-left-g">
                 {" "}
                 <RiShoppingBasket2Fill
-                  style={{ width: "60%", height: "40px" }}
+                  style={{ width: "60%", height: "40px" , display:"grid" }}
                 />
                 <span>Sepetiniz henüz boş.</span>
               </div>
@@ -238,7 +346,7 @@ export default function CityHome() {
             <img src="https://cdn.yemeksepeti.com/App_Themes/Default_tr-TR/images/kampusicon.png?v=v2" />
           </a>{" "}
         </div>
-      </div>
+      </div>{" "}
     </div>
   );
 }

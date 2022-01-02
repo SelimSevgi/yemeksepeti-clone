@@ -1,0 +1,49 @@
+{
+  "pizza": [
+    {
+      "rate": 7.1,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
+      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+    },
+    {
+      "rate": 7.1,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
+      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+    },
+    {
+      "rate": 7.1,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
+      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+    },
+    {
+      "rate": 7.1,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
+      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+    }
+  ],
+  "lahmacun": [
+    {
+      "rate": 7.1,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
+      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+    },
+    {
+      "rate": 7.1,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
+      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+    },
+    {
+      "rate": 7.1,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
+      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+    },
+    {
+      "rate": 7.1,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
+      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+    }
+  ],
+  "default": [
+  
+]
+}

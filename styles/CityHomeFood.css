@@ -8,7 +8,7 @@
   font-size: 11px;
   position: absolute;
   top: 55px;
-  z-index: 5;
+  z-index: 3;
 }
 
 .food {
@@ -20,7 +20,46 @@
   position: absolute;
   top: -3px;
 }
-.food-1 > p {
+
+.food-title-result {
+  width: 65%;
+  height: 20px;
+  font-size: 11px;
+  position: absolute;
+  top: 170%;
+  right: 0;
+  left: 35%;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  font-size: 11px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.food-title-result-item {
+  z-index: 5;
+  top: 0px;
+  right: 0;
+  left: 0%;
+  width: 64px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  border: 1px solid #e8e8e8;
+  margin-right: 5px;
+  font-size: 11px;
+}
+.food-title-result-item:hover {
+  border: 1px solid #ffd55a;
+  color: #ffd55a;
+}
+/* .food-1 > p {
   width: 64px;
   height: 30px;
   border: 1px solid #e8e8e8;
@@ -32,7 +71,7 @@
 .food-1 > p:hover {
   border-color: #ffd55a;
   color: #ffd55a;
-}
+} */
 .food-1-1 {
   display: flex;
   flex-direction: row;
@@ -53,6 +92,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  font-weight: 700;
 }
 .food-grid {
   display: grid;
@@ -123,6 +163,10 @@
 }
 .food a:hover {
   text-decoration: none;
+}
+.food-1 > p {
+  letter-spacing: 1px;
+  font-weight: 700;
 }
 .food-3 > p {
   letter-spacing: 1px;
