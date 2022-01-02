@@ -22,7 +22,7 @@ export default function CityHomeFood() {
       <div className="food">
         <div className="food-1">
           <p>Bunu mu demek istediniz?</p>
-          
+
           <div className="food-2">
             <p>Popüler Aramalar</p>
             <div className="food-grid">
@@ -32,10 +32,11 @@ export default function CityHomeFood() {
               <span> Lahmacun</span>
               <span> Burger</span>
               <span> Pide</span>
-              <span> Pasta</span>
+              <span> Tavuk</span>
               <span> Çiğ Köfte</span>
-              <span> İskender</span>
-              <span> Baklava</span>
+              <span> Kebap</span>
+              <span> Dürüm</span>
+              <span> Tantuni</span>
             </div>
           </div>
           <div className="food-3">

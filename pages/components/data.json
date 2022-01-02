@@ -1,49 +1,236 @@
 {
   "pizza": [
     {
-      "rate": 7.1,
-      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
-      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+      "rate": 9.0,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/dezzapizza_small.gif",
+      "text": "Dezza Pizza, Yeşilyurt (Çilesiz Mah. - Fahri Kayahan Blv.)"
+    },
+    {
+      "rate": 9.0,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/pizza_real2_small.gif",
+      "text": "Pizza Real, Battalgazi (Saray Mah.)"
+    },
+    {
+      "rate": 8.8,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/dominos_pizza_2_small.gif",
+      "text": "Domino's Pizza, Battalgazi (Kernek Mah. - Kanalboyu Cad.)"
     },
     {
       "rate": 7.1,
       "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
       "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+    }
+  ],
+  "pide": [
+    {
+      "rate": 8.5,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/beyzadem-lahmacun-pide-doner_small.gif",
+      "text": "Beyzadem Lahmacun & Pide & Döner, Yeşilyurt (İnönü Mah. - İnönü Cad.)"
     },
     {
-      "rate": 7.1,
-      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
-      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+      "rate": 8.3,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MERSIN/ciftlik_small.gif",
+      "text": "Çiftlik Pide & Lahmacun, Yeşilyurt (Bostanbaşı Mah.)"
     },
     {
-      "rate": 7.1,
-      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
-      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+      "rate": 8.3,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/saray-lahmacun-pide_small.gif",
+      "text": "Saray Lahmacun Pide & Izgara, Yeşilyurt (Cevatpaşa Mah. - Makro Avm)"
+    },
+    {
+      "rate": 7.9,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/arzuata_small.gif",
+      "text": "Arzu Ata Pide & Lahmacun, Yeşilyurt (Bostanbaşı Mah.)"
     }
   ],
   "lahmacun": [
     {
-      "rate": 7.1,
-      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
-      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+      "rate": 8.5,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/beyzadem-lahmacun-pide-doner_small.gif",
+      "text": "Beyzadem Lahmacun & Pide & Döner, Yeşilyurt (İnönü Mah. - İnönü Cad.)"
     },
     {
-      "rate": 7.1,
-      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
-      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+      "rate": 8.3,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/ozrfa-kebap-lahmacun_small.gif",
+      "text": "Öz Urfa Kebap & Lahmacun, Battalgazi (Saray Mah.)"
     },
     {
-      "rate": 7.1,
-      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
-      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+      "rate": 8.3,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MERSIN/ciftlik_small.gif",
+      "text": "Çiftlik Pide & Lahmacun, Yeşilyurt (Bostanbaşı Mah.)"
     },
     {
-      "rate": 7.1,
-      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/terrapizzapizzapizza_small.gif",
-      "text": "Terra Pizza - Pizza Pizza, Yeşilyurt (Karakavak Mah.)"
+      "rate": 8.3,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/saray-lahmacun-pide_small.gif",
+      "text": "Saray Lahmacun Pide & Izgara, Yeşilyurt (Cevatpaşa Mah. - Makro Avm)"
     }
   ],
-  "default": [
-  
-]
+  "tatlı": [
+    {
+      "rate": 8.6,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/byyukselsalik_small.gif",
+      "text": "By Yüksel Salik Tatlıları, Yeşilyurt (Çilesiz Mah. - Fahri Kayahan Blv.)"
+    },
+    {
+      "rate": 8.5,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/kadioglu_small.gif",
+      "text": "Kadıoğlu Baklava & Çiğ Köfte, Yeşilyurt (Turgut Özal Mah.)"
+    },
+    {
+      "rate": 8.3,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/ozrfa-kebap-lahmacun_small.gif",
+      "text": "Öz Urfa Kebap & Lahmacun, Battalgazi (Saray Mah.)"
+    },
+    {
+      "rate": 8.0,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/asiklartantuniguncel2_small.gif",
+      "text": "Aşıklar Tantuni & Künefe, Battalgazi (Kernek Mah. - Kanalboyu Cad.)"
+    }
+  ],
+  "burger": [
+    {
+      "rate": 8.3,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/royalpizza_small.gif",
+      "text": "Royal Pizza & Burger, Yeşilyurt (Bostanbaşı Mah.)"
+    },
+    {
+      "rate": 7.8,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/burgerking2021_small.gif",
+      "text": "Burger King, Yeşilyurt (İnönü Mah. - Malatya Park Avm)"
+    },
+    {
+      "rate": 7.7,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/burgerking2021_small.gif",
+      "text": "Burger King, Yeşilyurt (Çilesiz Mah. - Fahri Kayahan Blv.)"
+    },
+    {
+      "rate": 7.4,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_ISTANBUL/etliburger_small.gif",
+      "text": "@'li Burger, Yeşilyurt (İnönü Mah. - Malatya Park Avm)"
+    }
+  ],
+  "çiğköfte": [
+    {
+      "rate": 8.5,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/meshur-adiyaman-cigkoftecisi-ramazan-dogru-lcv1_small.gif",
+      "text": "Meşhur Adıyaman Çiğköftecisi Ramazan Doğru, Yeşilyurt (Şeyh Bayram Mah.)"
+    },
+    {
+      "rate": 8.0,
+      "imgUrl": "https://cdn.yemeksepeti.com//categoryimages/TR_MALATYA/cigkoftecim-temp_small.gif",
+      "text": "Çiğköftecim Tavuk Tantuni & Ciğer & Kavurma, Battalgazi (Akpınar Mah.)"
+    },
+    {
+      "rate": 6.8,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_BINGOL/hazarhan-cig-kofte-lcv1_small.gif",
+      "text": "Hazarhan Çiğköfte Malatya, Yeşilyurt (Özalper Mah.)"
+    },
+    {
+      "rate": "-",
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/urfacigkofte_small.gif",
+      "text": "Urfa Çiğköfte, Yeşilyurt (Zaviye Mah.)"
+    }
+  ],
+  "döner": [
+    {
+      "rate": 8.6,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_KONYA/torkuziyafetdoner_small.gif",
+      "text": "Torku Ziyafet Döner, Yeşilyurt (Turgut Özal Mah.)"
+    },
+    {
+      "rate": 8.5,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/beyzadem-lahmacun-pide-doner_small.gif",
+      "text": "Beyzadem Lahmacun & Pide & Döner, Yeşilyurt (İnönü Mah. - İnönü Cad.)"
+    },
+    {
+      "rate": 8.2,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_ISTANBUL/ekremcoskunguncel_small.gif",
+      "text": "Ekrem Coşkun Döner, Battalgazi (Kavaklıbağ Mah.)"
+    },
+    {
+      "rate": 8.2,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/ozeller-tantuni--doner-lcv1_small.gif",
+      "text": "Özeller Tantuni & Döner, Battalgazi (Yenihamam Mah.)"
+    }
+  ],
+
+  "tavuk": [
+    {
+      "rate": 9.0,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/tavukdunyasi3_small.gif",
+      "text": "Tavuk Dünyası, Yeşilyurt (İnönü Mah. - Malatya Park Avm)"
+    },
+    {
+      "rate": 8.2,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/numune-2-et--tavuk-mangal-lcv1_small.gif",
+      "text": "Numune 2 Et & Tavuk Mangal, Battalgazi (Sarıcıoğlu Mah.)"
+    },
+    {
+      "rate": 8.1,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/tabaktatavuk_small.gif",
+      "text": "Tabakta Tavuk, Battalgazi (İstiklal Mah.)"
+    },
+    {
+      "rate": 8.0,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/beslerdonerettavuk_small.gif",
+      "text": "Besler Döner Et & Tavuk & Köfte, Battalgazi (Yenihamam Mah.)"
+    }
+  ],
+  "kebap": [
+    {
+      "rate": 9.3,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/cadirkebap1_small.gif",
+      "text": "Çadır Kebap, Yeşilyurt (Çilesiz Mah. - Fahri Kayahan Blv.)"
+    },
+    {
+      "rate": 9.1,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/selale-kebap-lcv1_small.gif",
+      "text": "Şelale Kebap, Battalgazi (Tandoğan Mah.)"
+    },
+    {
+      "rate": 8.8,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/caddekebap_small.gif",
+      "text": "Cadde Kebap, Yeşilyurt (Özalper Mah.)"
+    },
+    {
+      "rate": 8.6,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/kebapci-ahmet-lcv1_small.gif",
+      "text": "Kebapçı Ahmet, Yeşilyurt (Zaviye Mah.)"
+    }
+  ],
+  "dürüm": [
+    {
+      "rate": 8.5,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_ISTANBUL/durumcuosman_small.gif",
+      "text": "Dürümcü Osman, Yeşilyurt (Turgut Özal Mah.)"
+    },
+    {
+      "rate": 8.2,
+      "imgUrl": "https://cdn.yemeksepeti.com//categoryimages/TR_MALATYA/aboov-kebap-durum2_small.gif",
+      "text": "Abooov Kebap & Dürüm, Battalgazi (Akpınar Mah.)"
+    }
+  ],
+  "tantuni": [
+    {
+      "rate": 8.5,
+      "imgUrl": "https://cdn.yemeksepeti.com//categoryimages/TR_MALATYA/ilhanustabiftektantuni_small.gif",
+      "text": "Biftek Tantuni İlhan Aşık, Yeşilyurt (Özalper Mah.)"
+    },
+    {
+      "rate": 8.5,
+      "imgUrl": "https://cdn.yemeksepeti.com//categoryimages/TR_MALATYA/ilhanustabiftektantuni_small.gif",
+      "text": "Biftek Tantuni İlhan Aşık, Yeşilyurt (Cevatpaşa Mah. - Makro Avm)"
+    },
+    {
+      "rate": 8.3,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/bilalustamersintantuni_small.gif",
+      "text": "Bilal Usta Mersin Tantuni, Battalgazi (Saray Mah.)"
+    },
+    {
+      "rate": 8.2,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/ozeller-tantuni--doner-lcv1_small.gif",
+      "text": "Özeller Tantuni & Döner, Battalgazi (Yenihamam Mah.)"
+    }
+  ],
+  "default": []
 }

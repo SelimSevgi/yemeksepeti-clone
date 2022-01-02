@@ -41,7 +41,7 @@ const data = [
   },
   {
     id: 7,
-    title: "Pasta",
+    title: "Tavuk",
   },
   {
     id: 8,
@@ -49,11 +49,15 @@ const data = [
   },
   {
     id: 9,
-    title: "İskender",
+    title: "Kebap",
   },
   {
     id: 10,
-    title: "Baklava",
+    title: "Dürüm",
+  },
+  {
+    id: 11,
+    title: "Tantuni",
   },
 ];
 const data1 = [{ name: <div>asda</div> }];
@@ -95,7 +99,17 @@ export default function CityHome() {
               value={text}
               onClick={(e) => setOpen(!open)}
             />
-            {!openSearch && (
+            {text === "pizza" ||
+            text === "pide" ||
+            text === "lahmacun" ||
+            text === "tatlı" ||
+            text === "döner" ||
+            text === "tantuni" ||
+            text === "dürüm" ||
+            text === "çiğköfte" ||
+            text === "kebap" ||
+            text === "tavuk" ||
+            text === "burger" ? null : (
               <>
                 {" "}
                 {text.length <= 0 ? null : (
@@ -107,7 +121,6 @@ export default function CityHome() {
                             {item.title}
                           </div>
                         ))}
-                        {text}
                       </div>
                     )}
 
@@ -116,8 +129,33 @@ export default function CityHome() {
                 )}
               </>
             )}
-            {openSearch && (
+            {text === "pizza" ||
+            text === "pide" ||
+            text === "lahmacun" ||
+            text === "tatlı" ||
+            text === "döner" ||
+            text === "tantuni" ||
+            text === "dürüm" ||
+            text === "çiğköfte" ||
+            text === "kebap" ||
+            text === "tavuk" ||
+            text === "burger" ? (
               <div className="search-result-main">
+                <div style={{ marginTop: "15px", padding: 0 }}>
+                  <MdArrowDropUp
+                    style={{
+                      color: "white",
+
+                      width: "55px",
+                      height: "55px",
+                      objectFit: "cover",
+
+                      position: "absolute",
+                      top: "-32px",
+                      right: "70%",
+                    }}
+                  />
+                </div>
                 <span> Restoranlar</span>
                 <div className="search-result-map">
                   {text === "pizza" ? (
@@ -128,8 +166,80 @@ export default function CityHome() {
                         <span>{item.text}</span>
                       </div>
                     ))
+                  ) : text === "pide" ? (
+                    dataSearch.pide.map((item, index) => (
+                      <div key={index} className="search-result">
+                        <img src={item.imgUrl} />
+                        <span>{item.rate}</span>
+                        <span>{item.text}</span>
+                      </div>
+                    ))
                   ) : text === "lahmacun" ? (
                     dataSearch.lahmacun.map((item, index) => (
+                      <div key={index} className="search-result">
+                        <img src={item.imgUrl} />
+                        <span>{item.rate}</span>
+                        <span>{item.text}</span>
+                      </div>
+                    ))
+                  ) : text === "tatlı" ? (
+                    dataSearch.tatlı.map((item, index) => (
+                      <div key={index} className="search-result">
+                        <img src={item.imgUrl} />
+                        <span>{item.rate}</span>
+                        <span>{item.text}</span>
+                      </div>
+                    ))
+                  ) : text === "döner" ? (
+                    dataSearch.döner.map((item, index) => (
+                      <div key={index} className="search-result">
+                        <img src={item.imgUrl} />
+                        <span>{item.rate}</span>
+                        <span>{item.text}</span>
+                      </div>
+                    ))
+                  ) : text === "tantuni" ? (
+                    dataSearch.tantuni.map((item, index) => (
+                      <div key={index} className="search-result">
+                        <img src={item.imgUrl} />
+                        <span>{item.rate}</span>
+                        <span>{item.text}</span>
+                      </div>
+                    ))
+                  ) : text === "dürüm" ? (
+                    dataSearch.dürüm.map((item, index) => (
+                      <div key={index} className="search-result">
+                        <img src={item.imgUrl} />
+                        <span>{item.rate}</span>
+                        <span>{item.text}</span>
+                      </div>
+                    ))
+                  ) : text === "çiğköfte" ? (
+                    dataSearch.çiğköfte.map((item, index) => (
+                      <div key={index} className="search-result">
+                        <img src={item.imgUrl} />
+                        <span>{item.rate}</span>
+                        <span>{item.text}</span>
+                      </div>
+                    ))
+                  ) : text === "kebap" ? (
+                    dataSearch.kebap.map((item, index) => (
+                      <div key={index} className="search-result">
+                        <img src={item.imgUrl} />
+                        <span>{item.rate}</span>
+                        <span>{item.text}</span>
+                      </div>
+                    ))
+                  ) : text === "tavuk" ? (
+                    dataSearch.tavuk.map((item, index) => (
+                      <div key={index} className="search-result">
+                        <img src={item.imgUrl} />
+                        <span>{item.rate}</span>
+                        <span>{item.text}</span>
+                      </div>
+                    ))
+                  ) : text === "burger" ? (
+                    dataSearch.burger.map((item, index) => (
                       <div key={index} className="search-result">
                         <img src={item.imgUrl} />
                         <span>{item.rate}</span>
@@ -149,7 +259,7 @@ export default function CityHome() {
                   )}
                 </div>
               </div>
-            )}
+            ) : null}
             <button onClick={() => setOpenSearch(!openSearch)}>
               {" "}
               <AiOutlineSearch className="city-up-b-icon" />
@@ -192,7 +302,7 @@ export default function CityHome() {
               <div className="city-down-left-g">
                 {" "}
                 <RiShoppingBasket2Fill
-                  style={{ width: "60%", height: "40px" , display:"grid" }}
+                  style={{ width: "60%", height: "40px", display: "grid" }}
                 />
                 <span>Sepetiniz henüz boş.</span>
               </div>
