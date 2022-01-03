@@ -11,7 +11,7 @@ import {
   RiNumber3,
 } from "react-icons/ri";
 import CityHomeSlider from "./CityHomeSlider";
-import CityHomeFood from "./CityHomeFood";
+
 import { MdArrowDropUp } from "react-icons/md";
 import dataSearch from "./data.json";
 const data = [
@@ -67,6 +67,22 @@ export default function CityHome() {
   const [open, setOpen] = useState(false);
   const [result, setResult] = useState([]);
   const [openSearch, setOpenSearch] = useState(false);
+  const [openFood, setOpenFood] = useState([
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+
+    false,
+    false,
+
+    false,
+    false,
+
+    false,
+  ]);
   useEffect(() => {
     if (text) {
       setResult(
@@ -81,6 +97,7 @@ export default function CityHome() {
   }, [text]);
   console.log(openSearch);
   console.log(dataSearch[0]);
+  console.log("asda123212", openFood);
   return (
     <div className="cityhome">
       <div className="cityhome-color">
@@ -99,6 +116,7 @@ export default function CityHome() {
               value={text}
               onClick={(e) => setOpen(!open)}
             />
+
             {text === "pizza" ||
             text === "pide" ||
             text === "lahmacun" ||
@@ -114,17 +132,140 @@ export default function CityHome() {
                 {" "}
                 {text.length <= 0 ? null : (
                   <>
-                    {result && (
-                      <div className="food-title-result">
-                        {result.map((item) => (
-                          <div key={item.id} className="food-title-result-item">
-                            {item.title}
-                          </div>
-                        ))}
-                      </div>
-                    )}
+                    <div className="foods">
+                      <div style={{ marginTop: "15px", padding: 0 }}>
+                        <MdArrowDropUp
+                          style={{
+                            color: "white",
 
-                    <CityHomeFood />
+                            width: "55px",
+                            height: "55px",
+                            objectFit: "cover",
+
+                            position: "absolute",
+                            top: "-35px",
+                            right: "70%",
+                          }}
+                        />
+                      </div>
+
+                      <div className="food">
+                        {" "}
+                        <div className="food-1">
+                          <p>Bunu mu demek istediniz?</p>{" "}
+                        </div>{" "}
+                        {result && (
+                          <div className="food-title-result">
+                            {result.map((item) => (
+                              <div
+                                key={item.id}
+                                className="food-title-result-item"
+                              >
+                                {item.title}
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                        
+                        {openFood[0] && (
+                          <div className="city-up-b-openFood">
+                            {dataSearch.döner.map((item, index) => (
+                              <div key={index} className="search-result">
+                                <img src={item.imgUrl} />
+                                <span>{item.rate}</span>
+                                <span>{item.text}</span>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                        {!openFood[0] && (
+                          <>
+                            <div className="food-2">
+                              <p>Popüler Aramalar</p>
+                              <div className="food-grid">
+                                <span
+                                  onClick={(e) =>
+                                    setOpenFood([
+                                      !openFood[0],
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                    ])
+                                  }
+                                >
+                                  {" "}
+                                  Döner
+                                </span>
+
+                                <span> Tatlı</span>
+                                <span> Pizza</span>
+                                <span> Lahmacun</span>
+                                <span> Burger</span>
+                                <span> Pide</span>
+                                <span> Tavuk</span>
+                                <span> Çiğ Köfte</span>
+                                <span> Kebap</span>
+                                <span> Dürüm</span>
+                                <span> Tantuni</span>
+                              </div>
+                            </div>
+                            <div className="food-3">
+                              <p>Mutfak</p>
+                              <div className="food-grid-1">
+                                <div className="food-grid-1-img">
+                                  <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/cig-kofte.png" />
+                                  <span>Çiğ Köfte</span>
+                                </div>
+                                <div className="food-grid-1-img">
+                                  <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/doner.png" />
+                                  <span>Döner</span>
+                                </div>{" "}
+                                <div className="food-grid-1-img">
+                                  <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/burger.png" />
+                                  <span>Burger</span>
+                                </div>{" "}
+                                <div className="food-grid-1-img">
+                                  <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/kebap-turk-mutfagi.png" />
+                                  <span>
+                                    Kebap & <br />
+                                    Türk Mutfağı
+                                  </span>
+                                </div>{" "}
+                                <div className="food-grid-1-img">
+                                  <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/pasta-tatli.png" />
+                                  <span>Tatlı</span>
+                                </div>{" "}
+                                <div className="food-grid-1-img">
+                                  <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/pide.png" />
+                                  <span>
+                                    Pide & <br />
+                                    Lahmacun
+                                  </span>
+                                </div>{" "}
+                                <div className="food-grid-1-img">
+                                  <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/tavuk.png" />
+                                  <span>Tavuk</span>
+                                </div>{" "}
+                                <div className="food-grid-1-img">
+                                  <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/pizza-italyan.png" />
+                                  <span>Pizza</span>
+                                </div>{" "}
+                              </div>
+                            </div>
+                            <a href="https://www.yemeksepeti.com/malatya/restoran-arama#st:T%C3%BCm%20Restoranlar">
+                              Tüm Restoranlar
+                            </a>
+                          </>
+                        )}
+                      </div>
+                    </div>
                   </>
                 )}
               </>
