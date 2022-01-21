@@ -113,6 +113,7 @@ export default function MobileSehirSecimi() {
           <BiChevronRight style={{ width: "21px", height: "26px" }} />
         </div>
         <span>Zincir Restoranlar</span>
+        <span>sadasd</span>
       </div>
     </div>
   );
