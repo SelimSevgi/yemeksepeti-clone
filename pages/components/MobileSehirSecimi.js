@@ -9,7 +9,7 @@ import {
 } from "react-icons/ai";
 import { HiUserAdd, HiOutlineLocationMarker } from "react-icons/hi";
 import { BiChevronRight } from "react-icons/bi";
-import ZincirRestorant 
+
 import CityHomeSlider from "./CityHomeSlider";
 export default function MobileSehirSecimi() {
   return (
