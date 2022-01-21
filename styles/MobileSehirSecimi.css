@@ -1,0 +1,217 @@
+.mobilesehirsecimi {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .mobilesehirsecimi {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ededed;
+  }
+  .mbl-banner {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ededed;
+  }
+  .mbl-banner-l {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    margin-left: 10px;
+  }
+  .mbl-banner-l > img {
+    width: 29px;
+    height: 29px;
+    border-radius: 5px;
+  }
+  .mbl-banner-y {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .mbl-banner-logo {
+    color: white;
+    background-color: #fa0050;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 54px;
+  }
+  .mbl-banner-logo > img {
+    width: 132px;
+    height: 25px;
+  }
+  .mbl-banner-search {
+    height: 52px;
+    width: 100%;
+    background-color: #fa0050;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ededed;
+  }
+  .mbl-banner-search-input {
+    width: 315px;
+    height: 40px;
+    border: none;
+    padding-left: 15px;
+  }
+  .mbl-banner-search-icon {
+    background-color: #fab84c;
+    height: 40px;
+    width: 10%;
+    object-fit: cover;
+  }
+}
+.mbl-banner-content {
+  background-color: #fa0050;
+  width: 100%;
+}
+.mbl-banner-content > span {
+  width: 100%;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: white;
+  padding-left: 5%;
+}
+.mbl-banner-content-menu {
+  display: flex;
+  width: 100%;
+  height: 49px;
+  background-color: #f0004c;
+  flex-direction: row;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: space-around;
+}
+.mbl-banner-content-menu-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  width: 45%;
+  height: 70%;
+}
+.mbl-banner-content-menu-1 > img {
+  height: 20px;
+  width: auto;
+  margin-right: 5px;
+}
+.slider-wrapper,
+.slide > div > img {
+  height: 175px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+.mbl-banner-content-slider {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.control-dots {
+  display: flex !important;
+  background-color: rgba(0, 0, 0, 0.335);
+  width: 80% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 20px !important;
+  margin-left: 10% !important;
+}
+.thumbs-wrapper {
+  display: none !important;
+}
+.mbl-banner-content-login{
+  margin-top: 20%;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+}
+.mbl-banner-content-user{
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+}
+.mbl-banner-content-user-1{
+  width: 100%;
+  height: 40px;
+  color: #29cc81;
+  border: 1px solid #29cc81;
+  border-radius: 1px;
+  font-size: 14px;
+  font-weight: 600;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.mbl-banner-content-user-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 40px;
+  background-color: #3c5b9a;
+  color: white;
+  
+  border-radius: 1px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.mbl-content{
+  background-color: #ededed;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 700;
+}
+.mbl-content-city{
+  margin-top: 10px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 12px 10px;
+  color:#29cc81;
+
+}
+.mbl-content-city-l{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-track{
+  width: 100% !important;
+}
+.slick-list{
+  background-color: #3c5b9a;
+}

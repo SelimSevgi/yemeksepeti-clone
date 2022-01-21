@@ -172,3 +172,22 @@
   letter-spacing: 1px;
   font-weight: 700;
 }
+.food-close {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+.food-close:hover {
+  color: #fa0050;
+}
+
+
+@media screen and (max-width: 768px) {
+  .content {
+    display: none;
+   
+  }
+}

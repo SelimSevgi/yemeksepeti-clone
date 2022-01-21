@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGlobeAmericas } from "react-icons/fa";
-import sehir from "../sehir";
+
 export default function Content() {
   const data = [
     { id: "01", name: "Adana" },

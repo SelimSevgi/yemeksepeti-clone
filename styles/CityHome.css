@@ -638,9 +638,13 @@ ul {
 .city-up-b-openFood {
   display: flex;
   flex-direction: row;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-right: 15px;
   width: 100%;
 }
-.search-result {
+
+@media screen and (max-width: 768px) {
+  .cityhome {
+    display: none;
+  }
 }
