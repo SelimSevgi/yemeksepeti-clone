@@ -3,7 +3,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { RiCheckboxCircleLine } from "react-icons/ri";
 import MobileBttn from "./MobileBttn";
-
+import MobileSehirSecimi from "./MobileSehirSecimi";
 export default function MobileMenu() {
   const data = [
     { id: "01", name: "Adana" },
@@ -129,7 +129,7 @@ export default function MobileMenu() {
           <div key={x.id} className="bbb">
             <div className="ccc">
               <span className="ddd">{x.id}</span>
-              <span className="eee">{x.name}</span>
+              <span className="eee"><a href="sehir">{x.name}</a></span>
             </div>
 
             <RiCheckboxCircleLine className="fff" />
