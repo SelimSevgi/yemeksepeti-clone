@@ -138,26 +138,25 @@
 .thumbs-wrapper {
   display: none !important;
 }
-.mbl-banner-content-login{
+.mbl-banner-content-login {
   margin-top: 20%;
   background-color: rgb(255, 255, 255);
   width: 100%;
   height: 100px;
   display: flex;
   flex-direction: column;
- 
+
   align-items: center;
 }
-.mbl-banner-content-user{
+.mbl-banner-content-user {
   padding: 2%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-
 }
-.mbl-banner-content-user-1{
+.mbl-banner-content-user-1 {
   width: 100%;
   height: 40px;
   color: #29cc81;
@@ -165,12 +164,11 @@
   border-radius: 1px;
   font-size: 14px;
   font-weight: 600;
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.mbl-banner-content-user-2{
+.mbl-banner-content-user-2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,12 +176,12 @@
   height: 40px;
   background-color: #3c5b9a;
   color: white;
-  
+
   border-radius: 1px;
   font-size: 14px;
   font-weight: 700;
 }
-.mbl-content{
+.mbl-content {
   background-color: #ededed;
   width: 100%;
   display: flex;
@@ -191,7 +189,7 @@
   font-size: 14px;
   font-weight: 700;
 }
-.mbl-content-city{
+.mbl-content-city {
   margin-top: 10px;
   background-color: white;
   width: 100%;
@@ -200,18 +198,57 @@
   align-items: center;
   text-align: center;
   padding: 12px 10px;
-  color:#29cc81;
-
+  color: #29cc81;
 }
-.mbl-content-city-l{
+.mbl-content-city-l {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.slick-track{
+.slick-track {
   width: 100% !important;
 }
-.slick-list{
+.slick-list {
   background-color: #3c5b9a;
+}
+.mbl-content-restaurant {
+  margin: 10px 0 10px 10px;
+}
+
+.multiCarousel-item-1 {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  padding: 5px;
+  height: 100px;
+  background-color: white;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 400;
+  text-align: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.multiCarousel-item-1 > img {
+  width: 53px !important;
+  height: 53px !important;
+}
+.multiCarousel-item-1 > span {
+  width: 100%;
+  font-size: 10px;
+  color: black;
+  font-weight: 400;
+  line-height: 12px;
+}
+.react-multi-carousel-track {
+  width: 80px !important;
+}
+.react-multi-carousel-item {
+  margin-right: 10px !important;
+}
+.react-multiple-carousel__arrow--right,
+.react-multiple-carousel__arrow--left {
+  display: none;
 }

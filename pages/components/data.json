@@ -232,5 +232,88 @@
       "text": "Özeller Tantuni & Döner, Battalgazi (Yenihamam Mah.)"
     }
   ],
-  "default": []
+  "default": [],
+  "zincirrestaurant":[
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/komagene2021guncel_small.gif",
+      "text": "Komagene Etsiz Çiğ Köfte",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/ozsutguncellogo_small.gif",
+      "text": "Özsüt",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/kfcguncel_small.gif",
+      "text": "KFC",
+      "link": ""
+      
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/tavukdunyasi3_small.gif",
+      "text": "Tavuk Dünyası",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/TR_ISTANBUL/starbuckscoffee_small.gif",
+      "text": "Starbucks Coffee",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/burgerking2021_small.gif",
+      "text": "Burger King",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/mcdonalds_6_small.gif",
+      "text": "McDonald's",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/TR_ISTANBUL/ustapideci_small.gif",
+      "text": "Usta Pideci",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/arbysguncel_small.gif",
+      "text": "Arby's",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/ustadonerciguncel_small.gif",
+      "text": "Usta Dönerci",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/popeyes2021_small.gif",
+      "text": "Popeyes",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/pasaport-pizza-2017_small.gif",
+      "text": "Pasaport Pizza",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/oses-cig-kofte2_small.gif",
+      "text": "Oses Çiğ Köfte",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/terrapizzapizzapizza_small.gif",
+      "text": "Terra Pizza - Pizza Pizza",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/mcdonalds_6_small.gif",
+      "text": "McDonald's",
+      "link": ""
+    },
+    {
+      "src": "https://cdn.yemeksepeti.com/CategoryImages/dominos_pizza_2_small.gif",
+      "text": "Domino's Pizza",
+      "link": ""
+    }
+  ]
 }

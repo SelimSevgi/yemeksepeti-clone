@@ -11,6 +11,7 @@ import { HiUserAdd, HiOutlineLocationMarker } from "react-icons/hi";
 import { BiChevronRight } from "react-icons/bi";
 
 import CityHomeSlider from "./CityHomeSlider";
+import MultiCarousel from "./MultiCarousel";
 export default function MobileSehirSecimi() {
   return (
     <div className="mobilesehirsecimi">
@@ -112,8 +113,11 @@ export default function MobileSehirSecimi() {
           </div>
           <BiChevronRight style={{ width: "21px", height: "26px" }} />
         </div>
-        <span>Zincir Restoranlar</span>
-        <span>sadasd</span>
+        <div className="mbl-content-restaurant">
+          <p>Zincir Restoranlar</p>
+          <MultiCarousel />
+        </div>
+        
       </div>
     </div>
   );
