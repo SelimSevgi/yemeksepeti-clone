@@ -139,8 +139,8 @@ export default function MobileSehirSecimi() {
         </div>
 
         {data.superres.map((x, i) => (
-          <div className="mbl-content-restaurant-2-c">
-            <div key={x.id} className="mbl-content-restaurant-2-c-l">
+          <div  key={x.id} className="mbl-content-restaurant-2-c">
+            <div className="mbl-content-restaurant-2-c-l">
               <span>{x.rate}</span>
               <img src="https://www.yemeksepeti.com/assets/images/mobile/superdelivery-icon.png" />
               <a href="https://www.yemeksepeti.com/aren-kebap-sisli-merkez-mah-istanbul">
@@ -161,8 +161,8 @@ export default function MobileSehirSecimi() {
           </div>
         </div>
         {data.yeniekl.map((x, i) => (
-          <div className="mbl-content-restaurant-2-c">
-            <div key={x.id} className="mbl-content-restaurant-2-c-l">
+          <div key={x.id}  className="mbl-content-restaurant-2-c">
+            <div className="mbl-content-restaurant-2-c-l">
               <span>{x.rate}</span>
               <img src="https://www.yemeksepeti.com/assets/images/mobile/superdelivery-icon.png" />
               <a href="https://www.yemeksepeti.com/aren-kebap-sisli-merkez-mah-istanbul">
