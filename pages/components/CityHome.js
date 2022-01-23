@@ -94,7 +94,7 @@ export default function CityHome() {
       setResult([]);
     }
   }, [text]);
-  console.log("asda", open);
+
   return (
     <div className="cityhome">
       <div className="cityhome-color">
@@ -127,7 +127,7 @@ export default function CityHome() {
             text === "burger" ? null : (
               <>
                 {" "}
-                {text.length <= 0 ? null : (
+                {text.length <= 1 ? null : (
                   <>
                     {open ? null : (
                       <div className="foods">
@@ -276,317 +276,7 @@ export default function CityHome() {
                             </div>
                           )}
 
-                          {!openFood[0] &&
-                            !openFood[1] &&
-                            !openFood[2] &&
-                            !openFood[3] &&
-                            !openFood[4] &&
-                            !openFood[5] &&
-                            !openFood[6] &&
-                            !openFood[7] &&
-                            !openFood[8] &&
-                            !openFood[9] &&
-                            !openFood[10] && (
-                              <>
-                                <div className="food-1">
-                                  <p>Bunu mu demek istediniz?</p>{" "}
-                                </div>{" "}
-                                {result && (
-                                  <div className="food-title-result">
-                                    {result.map((item) => (
-                                      <div
-                                        key={item.id}
-                                        className="food-title-result-item"
-                                      >
-                                        {item.title}
-                                      </div>
-                                    ))}
-                                  </div>
-                                )}
-                                <div className="food-2">
-                                  <p>Popüler Aramalar</p>
-                                  <div className="food-grid">
-                                    <span
-                                      onClick={(e) => {
-                                        setText("döner");
-                                        setOpenFood([
-                                          !openFood[0],
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                        ]);
-                                      }}
-                                    >
-                                      {" "}
-                                      Döner
-                                    </span>
-
-                                    <span
-                                      onClick={(e) =>
-                                        setOpenFood([
-                                          false,
-                                          !openFood[1],
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                        ])
-                                      }
-                                    >
-                                      {" "}
-                                      Tatlı
-                                    </span>
-                                    <span
-                                      onClick={(e) =>
-                                        setOpenFood([
-                                          false,
-                                          false,
-                                          !openFood[2],
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                        ])
-                                      }
-                                    >
-                                      {" "}
-                                      Pizza
-                                    </span>
-                                    <span
-                                      onClick={(e) =>
-                                        setOpenFood([
-                                          false,
-                                          false,
-                                          false,
-                                          !openFood[3],
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                        ])
-                                      }
-                                    >
-                                      {" "}
-                                      Lahmacun
-                                    </span>
-                                    <span
-                                      onClick={(e) =>
-                                        setOpenFood([
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          !openFood[4],
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                        ])
-                                      }
-                                    >
-                                      {" "}
-                                      Burger
-                                    </span>
-                                    <span
-                                      onClick={(e) =>
-                                        setOpenFood([
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-
-                                          false,
-                                          !openFood[5],
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                        ])
-                                      }
-                                    >
-                                      {" "}
-                                      Pide
-                                    </span>
-                                    <span
-                                      onClick={(e) =>
-                                        setOpenFood([
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-
-                                          false,
-
-                                          false,
-                                          !openFood[6],
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                        ])
-                                      }
-                                    >
-                                      {" "}
-                                      Tavuk
-                                    </span>
-                                    <span
-                                      onClick={(e) =>
-                                        setOpenFood([
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-
-                                          false,
-                                          false,
-
-                                          false,
-                                          !openFood[7],
-                                          false,
-                                          false,
-                                          false,
-                                        ])
-                                      }
-                                    >
-                                      {" "}
-                                      Çiğ Köfte
-                                    </span>
-                                    <span
-                                      onClick={(e) =>
-                                        setOpenFood([
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-
-                                          false,
-                                          false,
-                                          false,
-
-                                          false,
-                                          !openFood[8],
-                                          false,
-                                          false,
-                                        ])
-                                      }
-                                    >
-                                      {" "}
-                                      Kebap
-                                    </span>
-                                    <span
-                                      onClick={(e) =>
-                                        setOpenFood([
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          !openFood[9],
-                                          false,
-                                        ])
-                                      }
-                                    >
-                                      {" "}
-                                      Dürüm
-                                    </span>
-                                    <span
-                                      onClick={(e) =>
-                                        setOpenFood([
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          !openFood[10],
-                                        ])
-                                      }
-                                    >
-                                      {" "}
-                                      Tantuni
-                                    </span>
-                                  </div>
-                                </div>
-                                <div className="food-3">
-                                  <p>Mutfak</p>
-                                  <div className="food-grid-1">
-                                    <div className="food-grid-1-img">
-                                      <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/cig-kofte.png" />
-                                      <span>Çiğ Köfte</span>
-                                    </div>
-                                    <div className="food-grid-1-img">
-                                      <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/doner.png" />
-                                      <span>Döner</span>
-                                    </div>{" "}
-                                    <div className="food-grid-1-img">
-                                      <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/burger.png" />
-                                      <span>Burger</span>
-                                    </div>{" "}
-                                    <div className="food-grid-1-img">
-                                      <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/kebap-turk-mutfagi.png" />
-                                      <span>
-                                        Kebap & <br />
-                                        Türk Mutfağı
-                                      </span>
-                                    </div>{" "}
-                                    <div className="food-grid-1-img">
-                                      <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/pasta-tatli.png" />
-                                      <span>Tatlı</span>
-                                    </div>{" "}
-                                    <div className="food-grid-1-img">
-                                      <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/pide.png" />
-                                      <span>
-                                        Pide & <br />
-                                        Lahmacun
-                                      </span>
-                                    </div>{" "}
-                                    <div className="food-grid-1-img">
-                                      <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/tavuk.png" />
-                                      <span>Tavuk</span>
-                                    </div>{" "}
-                                    <div className="food-grid-1-img">
-                                      <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/pizza-italyan.png" />
-                                      <span>Pizza</span>
-                                    </div>{" "}
-                                  </div>
-                                </div>
-                                <a href="https://www.yemeksepeti.com/malatya/restoran-arama#st:T%C3%BCm%20Restoranlar">
-                                  Tüm Restoranlar
-                                </a>
-                              </>
-                            )}
+                          {/*dasdasd */}
                         </div>
                       </div>
                     )}
@@ -723,6 +413,321 @@ export default function CityHome() {
                     </p>
                   )}
                 </div>
+              </div>
+            ) : text.length >= 1 ? (
+              <div className="search-result-main">
+                {" "}
+                {!openFood[0] &&
+                  !openFood[1] &&
+                  !openFood[2] &&
+                  !openFood[3] &&
+                  !openFood[4] &&
+                  !openFood[5] &&
+                  !openFood[6] &&
+                  !openFood[7] &&
+                  !openFood[8] &&
+                  !openFood[9] &&
+                  !openFood[10] && (
+                    <>
+                      <div className="food-1">
+                        <p>Bunu mu demek istediniz?</p>{" "}
+                      </div>{" "}
+                      {result && (
+                        <div className="food-title-result">
+                          {result.map((item) => (
+                            <div
+                              key={item.id}
+                              className="food-title-result-item"
+                            >
+                              {item.title}
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                      <div className="food-2">
+                        <p>Popüler Aramalar</p>
+                        <div className="food-grid">
+                          <span
+                            onClick={(e) => {
+                              setText("döner");
+                              setOpenFood([
+                                !openFood[0],
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                              ]);
+                            }}
+                          >
+                            {" "}
+                            Döner
+                          </span>
+
+                          <span
+                            onClick={(e) =>
+                              setOpenFood([
+                                false,
+                                !openFood[1],
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                              ])
+                            }
+                          >
+                            {" "}
+                            Tatlı
+                          </span>
+                          <span
+                            onClick={(e) =>
+                              setOpenFood([
+                                false,
+                                false,
+                                !openFood[2],
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                              ])
+                            }
+                          >
+                            {" "}
+                            Pizza
+                          </span>
+                          <span
+                            onClick={(e) =>
+                              setOpenFood([
+                                false,
+                                false,
+                                false,
+                                !openFood[3],
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                              ])
+                            }
+                          >
+                            {" "}
+                            Lahmacun
+                          </span>
+                          <span
+                            onClick={(e) =>
+                              setOpenFood([
+                                false,
+                                false,
+                                false,
+                                false,
+                                !openFood[4],
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                              ])
+                            }
+                          >
+                            {" "}
+                            Burger
+                          </span>
+                          <span
+                            onClick={(e) =>
+                              setOpenFood([
+                                false,
+                                false,
+                                false,
+                                false,
+
+                                false,
+                                !openFood[5],
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                              ])
+                            }
+                          >
+                            {" "}
+                            Pide
+                          </span>
+                          <span
+                            onClick={(e) =>
+                              setOpenFood([
+                                false,
+                                false,
+                                false,
+                                false,
+
+                                false,
+
+                                false,
+                                !openFood[6],
+                                false,
+                                false,
+                                false,
+                                false,
+                              ])
+                            }
+                          >
+                            {" "}
+                            Tavuk
+                          </span>
+                          <span
+                            onClick={(e) =>
+                              setOpenFood([
+                                false,
+                                false,
+                                false,
+                                false,
+
+                                false,
+                                false,
+
+                                false,
+                                !openFood[7],
+                                false,
+                                false,
+                                false,
+                              ])
+                            }
+                          >
+                            {" "}
+                            Çiğ Köfte
+                          </span>
+                          <span
+                            onClick={(e) =>
+                              setOpenFood([
+                                false,
+                                false,
+                                false,
+                                false,
+
+                                false,
+                                false,
+                                false,
+
+                                false,
+                                !openFood[8],
+                                false,
+                                false,
+                              ])
+                            }
+                          >
+                            {" "}
+                            Kebap
+                          </span>
+                          <span
+                            onClick={(e) =>
+                              setOpenFood([
+                                false,
+                                false,
+                                false,
+                                false,
+
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                !openFood[9],
+                                false,
+                              ])
+                            }
+                          >
+                            {" "}
+                            Dürüm
+                          </span>
+                          <span
+                            onClick={(e) =>
+                              setOpenFood([
+                                false,
+                                false,
+                                false,
+                                false,
+
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false,
+                                !openFood[10],
+                              ])
+                            }
+                          >
+                            {" "}
+                            Tantuni
+                          </span>
+                        </div>
+                      </div>
+                      <div className="food-3">
+                        <p>Mutfak</p>
+                        <div className="food-grid-1">
+                          <div className="food-grid-1-img">
+                            <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/cig-kofte.png" />
+                            <span>Çiğ Köfte</span>
+                          </div>
+                          <div className="food-grid-1-img">
+                            <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/doner.png" />
+                            <span>Döner</span>
+                          </div>{" "}
+                          <div className="food-grid-1-img">
+                            <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/burger.png" />
+                            <span>Burger</span>
+                          </div>{" "}
+                          <div className="food-grid-1-img">
+                            <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/kebap-turk-mutfagi.png" />
+                            <span>
+                              Kebap & <br />
+                              Türk Mutfağı
+                            </span>
+                          </div>{" "}
+                          <div className="food-grid-1-img">
+                            <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/pasta-tatli.png" />
+                            <span>Tatlı</span>
+                          </div>{" "}
+                          <div className="food-grid-1-img">
+                            <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/pide.png" />
+                            <span>
+                              Pide & <br />
+                              Lahmacun
+                            </span>
+                          </div>{" "}
+                          <div className="food-grid-1-img">
+                            <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/tavuk.png" />
+                            <span>Tavuk</span>
+                          </div>{" "}
+                          <div className="food-grid-1-img">
+                            <img src="https://cdn.yemeksepeti.com/App_Themes/cuisines/discover/pizza-italyan.png" />
+                            <span>Pizza</span>
+                          </div>{" "}
+                        </div>
+                      </div>
+                      <a href="https://www.yemeksepeti.com/malatya/restoran-arama#st:T%C3%BCm%20Restoranlar">
+                        Tüm Restoranlar
+                      </a>
+                    </>
+                  )}
               </div>
             ) : null}
             <button onClick={() => setOpenSearch(!openSearch)}>
@@ -925,5 +930,3 @@ export default function CityHome() {
     </div>
   );
 }
-
-
