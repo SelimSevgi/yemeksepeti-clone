@@ -171,6 +171,10 @@
   color: #ccc;
   justify-content: flex-end;
 }
+.search-result-main > a:hover {
+  text-decoration: none;
+}
+
 .food-3 > p {
   letter-spacing: 1px;
   font-weight: 700;
