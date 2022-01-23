@@ -158,3 +158,6 @@
     color: white;
   }
 }
+.ReactModal__Overlay {
+z-index: 99;
+}

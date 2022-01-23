@@ -16,6 +16,7 @@ import CityHomeSlider from "./CityHomeSlider";
 import data from "./data.json";
 import Ilceler from "./Ilceler";
 import mobilMenu from "./MobileBttn";
+import MobileBttn from "./MobileBttn";
 export default function MobileSehirSecimi() {
   const responsive = {
     superLargeDesktop: {
@@ -39,11 +40,12 @@ export default function MobileSehirSecimi() {
 
   const [closeBanner, setCloseBanner] = useState("false");
   const [ilce, setIlce] = useState("false");
-  const [mblMenu, setMblMenu] = useState("false");
+  const [mblMenu, setMblMenu] = useState(false);
   return (
     <div className="mobilesehirsecimi">
       {" "}
-      {ilce  === "false" ? (
+     
+      {ilce === "false" ? (
         <div className="mobilesehirsecimi-1">
           <div className="mbl-navbar">
             {closeBanner && (
@@ -71,17 +73,8 @@ export default function MobileSehirSecimi() {
               </div>
             )}
             <div className="mbl-banner-log">
-              <AiOutlineMenu
-                style={{
-                  color: "white",
-                  height: "54px",
-                  width: "45px",
-                  fontWeight: "700",
-                  background: "#fa0050",
-                  paddingLeft: "10px",
-                }}
-                onClick={() => setMblMenu("")}
-              />
+              <MobileBttn  />
+
               <div className="mbl-banner-logo">
                 <img src="https://assets.yemeksepeti.com/images/mobile/yemeksepeti-logo.svg" />
               </div>{" "}
