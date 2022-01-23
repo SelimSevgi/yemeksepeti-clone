@@ -10,12 +10,11 @@
     flex-direction: column;
     background-color: #ededed;
   }
-  .mbl-navbar{
+  .mbl-navbar {
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 5;
-   
   }
   .mbl-banner {
     width: 100%;
@@ -42,7 +41,7 @@
     font-size: 14px;
     font-weight: 700;
   }
-  .mbl-banner-log{
+  .mbl-banner-log {
     display: flex;
   }
   .mbl-banner-logo {
@@ -54,7 +53,6 @@
     justify-content: center;
     position: relative;
     height: 54px;
-    
   }
   .mbl-banner-logo > img {
     width: 132px;
@@ -78,7 +76,7 @@
   .mbl-banner-search-icon {
     background-color: #fab84c;
     height: 40px;
-   width: 10%;
+    width: 10%;
     object-fit: cover;
   }
 }
@@ -87,12 +85,13 @@
   background-color: #fa0050;
   width: 100%;
 }
-.mbl-banner-content-1{
+.mbl-banner-content-1 {
   margin-top: 106px;
   background-color: #fa0050;
   width: 100%;
 }
-.mbl-banner-content > span,.mbl-banner-content-1 > span {
+.mbl-banner-content > span,
+.mbl-banner-content-1 > span {
   width: 100%;
   height: 34px;
   display: flex;
@@ -314,4 +313,70 @@
 }
 .mbl-content-restaurant-2-c-l > a {
   width: 273px;
+}
+
+.ilcelerBanner {
+  width: 100%;
+  background-color: #ededed;
+}
+.ilcelerBanner-1 {
+  display: flex;
+  background-color: #fa0050;
+  border-bottom: 1px solid #eb3b73;
+  padding: 0 10px;
+}
+.ilcelerBanner-logo {
+  width: 100%;
+  height: 49px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+.ilcelerBanner-icon {
+  display: flex;
+  width: 25px;
+  height: 49px;
+  color: white;
+}
+.ilcelerBanner-2 {
+  display: flex;
+  width: 100%;
+  background-color: #fa0050;
+  height: 52px;
+  align-items: center;
+  justify-content: center;
+}
+.ilcelerBanner-2-input {
+  border: none;
+  border-radius: 3px;
+  height: 29px;
+  width: 355px;
+  padding: 0 20px;
+}
+.ilcelerBanner-2-icon {
+  position: absolute;
+  left: 15px;
+  color: #c7c2c2;
+}
+.ilcelerBanner-3 {
+  height: 44px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #c7c2c2;
+  padding: 0 10px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  flex-direction: column;
+}
+.ilcelerBanner-3 > p {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }

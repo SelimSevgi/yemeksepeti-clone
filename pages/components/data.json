@@ -317,46 +317,68 @@
   ],
   "yeniekl": [
     {
-      "rate": 8.5,
-      "imgUrl": "https://cdn.yemeksepeti.com//categoryimages/TR_MALATYA/ilhanustabiftektantuni_small.gif",
-      "text": "Biftek Tantuni İlhan Aşık, Yeşilyurt (Özalper Mah.)"
+      "rate": 9.1,
+
+      "text": "Mert Tatlı Çiğ Köfte, Yeşilyurt (Koyunoğlu Mah.)",
+      "linkUrl": "https://www.yemeksepeti.com/mert-tatli-cig-kofte-yesilyurt-koyunoglu-mah-malatya"
     },
     {
-      "rate": 8.5,
-      "imgUrl": "https://cdn.yemeksepeti.com//categoryimages/TR_MALATYA/ilhanustabiftektantuni_small.gif",
-      "text": "Biftek Tantuni İlhan Aşık, Yeşilyurt (Cevatpaşa Mah. - Makro Avm)"
+      "rate": "-",
+      "text": "Bulgur Çiğ Köfte & Fast Food, Yeşilyurt (Tecde Mah.)",
+      "linkUrl": "https://www.yemeksepeti.com/bulgur-cig-kofte-fast-food-yesilyurt-tecde-mah-malatya"
     },
     {
-      "rate": 8.3,
-      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/bilalustamersintantuni_small.gif",
-      "text": "Bilal Usta Mersin Tantuni, Battalgazi (Saray Mah.)"
+      "rate": 8.1,
+      "text": "Numune 2 Et & Tavuk Mangal, Battalgazi (Sarıcıoğlu Mah.)",
+      "linkUrl": "https://www.yemeksepeti.com/numune-2-et-tavuk-mangal-battalgazi-saricioglu-mah-malatya"
     },
     {
-      "rate": 8.2,
-      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/ozeller-tantuni--doner-lcv1_small.gif",
-      "text": "Özeller Tantuni & Döner, Battalgazi (Yenihamam Mah.)"
+      "rate": "-",
+
+      "text": "Oses Çiğ Köfte, Yeşilyurt (Tecde Mah.)",
+      "linkUrl": "https://www.yemeksepeti.com/tr/Restaurant/Index/TR_MALATYA/9af3d166-062d-495c-9b1f-12a48d1119be"
+    },
+    {
+      "rate": 8.7,
+
+      "text": "Premium Bigboss Chef's, Battalgazi (Kernek Mah.)",
+      "linkUrl": "https://www.yemeksepeti.com/premium-bigboss-chefs-battalgazi-kernek-mah-malatya"
     }
   ],
   "superres": [
     {
-      "rate": 8.5,
-      "imgUrl": "https://cdn.yemeksepeti.com//categoryimages/TR_MALATYA/ilhanustabiftektantuni_small.gif",
-      "text": "Biftek Tantuni İlhan Aşık, Yeşilyurt (Özalper Mah.)"
+      "rate": 8.8,
+      "text": "Cadde Kebap, Yeşilyurt (Özalper Mah.)",
+
+      "linkUrl": "https://www.yemeksepeti.com/cadde-kebap-yesilyurt-ozalper-mah-malatya"
     },
     {
-      "rate": 8.5,
-      "imgUrl": "https://cdn.yemeksepeti.com//categoryimages/TR_MALATYA/ilhanustabiftektantuni_small.gif",
-      "text": "Biftek Tantuni İlhan Aşık, Yeşilyurt (Cevatpaşa Mah. - Makro Avm)"
+      "rate": 9.0,
+      "text": "Mehmet Usta Edem Dondurma & Künefe, Battalgazi (Kernek Mah. - Kanalboyu Cad.)",
+      "linkUrl": "https://www.yemeksepeti.com/mehmet-usta-edem-dondurma-kunefe-battalgazi-kernek-mah-kanalboyu-cad-malatya"
     },
     {
-      "rate": 8.3,
-      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/bilalustamersintantuni_small.gif",
-      "text": "Bilal Usta Mersin Tantuni, Battalgazi (Saray Mah.)"
-    },
-    {
-      "rate": 8.2,
-      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/ozeller-tantuni--doner-lcv1_small.gif",
-      "text": "Özeller Tantuni & Döner, Battalgazi (Yenihamam Mah.)"
+      "rate": 8.8,
+
+      "text": "Levent Börek, Yeşilyurt (Çilesiz Mah. - Fahri Kayahan Blv.)",
+      "linkUrl": "https://www.yemeksepeti.com/levent-borek-yesilyurt-cilesiz-mah-fahri-kayahan-blv-malatya"
     }
+  ],
+
+  "ilce": [
+    { "ilceName": "Akçadağ" },
+    { "ilceName": "Arapgir" },
+    { "ilceName": "Arguvan" },
+    { "ilceName": "Battalgazi" },
+    { "ilceName": "Darende" },
+    { "ilceName": "Doğanşehir" },
+    { "ilceName": "Doğanyol" },
+    { "ilceName": "Hekimhan" },
+    { "ilceName": "Kale" },
+    { "ilceName": "Kuluncak" },
+    { "ilceName": "Merkez" },
+    { "ilceName": "Pütürge" },
+    { "ilceName": "Yazıhan" },
+    { "ilceName": "Yeşilyurt" }
   ]
 }
