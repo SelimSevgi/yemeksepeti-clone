@@ -565,7 +565,7 @@ ul {
 }
 
 .search-result {
-  width: 25%;
+  
   height: 148px;
   display: flex;
   flex-direction: column;
@@ -642,6 +642,7 @@ ul {
   margin-right: 15px;
   width: 100%;
 }
+
 
 @media screen and (max-width: 768px) {
   .cityhome {

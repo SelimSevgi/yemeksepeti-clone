@@ -46,22 +46,17 @@
   justify-content: center;
   border-radius: 2px;
   border: 1px solid #e8e8e8;
-  margin-right: 5px;
+  margin-right: 10px;
   font-size: 11px;
 }
 .food-title-result-item:hover {
   border: 1px solid #ffd55a;
   color: #ffd55a;
 }
-/* .food-1 > p {
-  width: 64px;
-  height: 30px;
-  border: 1px solid #e8e8e8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 2px;
-}
+ .food-1 > p {
+   font-size: 11px;
+ 
+} /*
 .food-1 > p:hover {
   border-color: #ffd55a;
   color: #ffd55a;
@@ -91,7 +86,10 @@
 .food-grid {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
+  font-size: 11px;
+  column-gap: 10px;
 }
+
 .food-grid span {
   border: 1px solid #e8e8e8;
   display: flex;
@@ -109,6 +107,7 @@
 .food-grid-1 {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
+  column-gap: 10px;
 }
 .food-grid-1-img {
   width: 68px;
@@ -163,14 +162,26 @@
   letter-spacing: 1px;
   font-weight: 700;
 }
+.search-result-main > a {
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 11px;
+  display: flex;
+  text-decoration: underline;
+  color: #ccc;
+  justify-content: flex-end;
+}
 .food-3 > p {
   letter-spacing: 1px;
   font-weight: 700;
+  font-size: 11px;
 }
+
 .food-2 > p {
   margin-top: 40px;
   letter-spacing: 1px;
   font-weight: 700;
+  font-size: 11px;
 }
 .food-close {
   display: flex;
