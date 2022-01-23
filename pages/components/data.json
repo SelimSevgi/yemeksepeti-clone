@@ -233,7 +233,7 @@
     }
   ],
   "default": [],
-  "zincirrestaurant":[
+  "zincirrestaurant": [
     {
       "src": "https://cdn.yemeksepeti.com/CategoryImages/komagene2021guncel_small.gif",
       "text": "Komagene Etsiz Çiğ Köfte",
@@ -248,7 +248,6 @@
       "src": "https://cdn.yemeksepeti.com/CategoryImages/kfcguncel_small.gif",
       "text": "KFC",
       "link": ""
-      
     },
     {
       "src": "https://cdn.yemeksepeti.com/CategoryImages/tavukdunyasi3_small.gif",
@@ -314,6 +313,50 @@
       "src": "https://cdn.yemeksepeti.com/CategoryImages/dominos_pizza_2_small.gif",
       "text": "Domino's Pizza",
       "link": ""
+    }
+  ],
+  "yeniekl": [
+    {
+      "rate": 8.5,
+      "imgUrl": "https://cdn.yemeksepeti.com//categoryimages/TR_MALATYA/ilhanustabiftektantuni_small.gif",
+      "text": "Biftek Tantuni İlhan Aşık, Yeşilyurt (Özalper Mah.)"
+    },
+    {
+      "rate": 8.5,
+      "imgUrl": "https://cdn.yemeksepeti.com//categoryimages/TR_MALATYA/ilhanustabiftektantuni_small.gif",
+      "text": "Biftek Tantuni İlhan Aşık, Yeşilyurt (Cevatpaşa Mah. - Makro Avm)"
+    },
+    {
+      "rate": 8.3,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/bilalustamersintantuni_small.gif",
+      "text": "Bilal Usta Mersin Tantuni, Battalgazi (Saray Mah.)"
+    },
+    {
+      "rate": 8.2,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/ozeller-tantuni--doner-lcv1_small.gif",
+      "text": "Özeller Tantuni & Döner, Battalgazi (Yenihamam Mah.)"
+    }
+  ],
+  "superres": [
+    {
+      "rate": 8.5,
+      "imgUrl": "https://cdn.yemeksepeti.com//categoryimages/TR_MALATYA/ilhanustabiftektantuni_small.gif",
+      "text": "Biftek Tantuni İlhan Aşık, Yeşilyurt (Özalper Mah.)"
+    },
+    {
+      "rate": 8.5,
+      "imgUrl": "https://cdn.yemeksepeti.com//categoryimages/TR_MALATYA/ilhanustabiftektantuni_small.gif",
+      "text": "Biftek Tantuni İlhan Aşık, Yeşilyurt (Cevatpaşa Mah. - Makro Avm)"
+    },
+    {
+      "rate": 8.3,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/bilalustamersintantuni_small.gif",
+      "text": "Bilal Usta Mersin Tantuni, Battalgazi (Saray Mah.)"
+    },
+    {
+      "rate": 8.2,
+      "imgUrl": "https://cdn.yemeksepeti.com//CategoryImages/TR_MALATYA/ozeller-tantuni--doner-lcv1_small.gif",
+      "text": "Özeller Tantuni & Döner, Battalgazi (Yenihamam Mah.)"
     }
   ]
 }

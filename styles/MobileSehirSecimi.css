@@ -10,6 +10,13 @@
     flex-direction: column;
     background-color: #ededed;
   }
+  .mbl-navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+   
+  }
   .mbl-banner {
     width: 100%;
     height: 50px;
@@ -35,6 +42,9 @@
     font-size: 14px;
     font-weight: 700;
   }
+  .mbl-banner-log{
+    display: flex;
+  }
   .mbl-banner-logo {
     color: white;
     background-color: #fa0050;
@@ -44,6 +54,7 @@
     justify-content: center;
     position: relative;
     height: 54px;
+    
   }
   .mbl-banner-logo > img {
     width: 132px;
@@ -67,15 +78,21 @@
   .mbl-banner-search-icon {
     background-color: #fab84c;
     height: 40px;
-    width: 10%;
+   width: 10%;
     object-fit: cover;
   }
 }
 .mbl-banner-content {
+  margin-top: 156px;
   background-color: #fa0050;
   width: 100%;
 }
-.mbl-banner-content > span {
+.mbl-banner-content-1{
+  margin-top: 106px;
+  background-color: #fa0050;
+  width: 100%;
+}
+.mbl-banner-content > span,.mbl-banner-content-1 > span {
   width: 100%;
   height: 34px;
   display: flex;
@@ -199,6 +216,7 @@
   text-align: center;
   padding: 12px 10px;
   color: #29cc81;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .mbl-content-city-l {
   display: flex;
@@ -212,7 +230,7 @@
 .slick-list {
   background-color: #3c5b9a;
 }
-.mbl-content-restaurant {
+.mbl-content-restaurant-1 {
   margin: 10px 0 10px 10px;
 }
 
@@ -229,6 +247,7 @@
   border-radius: 5px;
   font-weight: 400;
   text-align: center;
+
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .multiCarousel-item-1 > img {
@@ -251,4 +270,48 @@
 .react-multiple-carousel__arrow--right,
 .react-multiple-carousel__arrow--left {
   display: none;
+}
+.mbl-content-restaurant-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.mbl-content-restaurant-2-r {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #767676;
+}
+.mbl-content-restaurant-2-c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  background-color: white;
+  padding: 0 10px;
+  border-bottom: 1px solid #c7c2c2;
+  width: 100%;
+}
+.mbl-content-restaurant-2-c-l {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.mbl-content-restaurant-2-c-l > img {
+  width: 18px;
+  margin: 0 5px;
+}
+.mbl-content-restaurant-2-c-l > span {
+  width: 35px;
+  height: 21px;
+  background-color: #29cc81;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+.mbl-content-restaurant-2-c-l > a {
+  width: 273px;
 }
